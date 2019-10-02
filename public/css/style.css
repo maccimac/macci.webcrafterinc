@@ -385,6 +385,15 @@ a.add-peace:hover:after {
   margin-right: 0.6rem;
 }
 
+/* SKILLSET */
+#skillset {
+  background-color: #ededed;
+}
+#skillset svg {
+  max-width: 5rem;
+  margin: 1.2rem;
+}
+
 .debug {
   border: 1px solid red;
 }

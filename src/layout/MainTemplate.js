@@ -1,12 +1,19 @@
 import React from 'react';
 import MainNav from './MainNav'
 
+
+export const Spacer = ({num = 4}) => (
+  <div className={"minheight-" + num + "rem"}>
+    &nbsp;
+  </div>
+)
+
 const MainTemplate = ({children}) =>(
-  <Fragment>
+  <React.Fragment>
     <MainNav/>
     {children}
-  </Fragment>
+  </React.Fragment>
 
 )
 
-export default MainTemplate
+export default MainTemplate;

@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import PortfolioItems from './PortfolioItems'
+import { Spacer } from '../layout/MainTemplate';
 
 const Portfolio = props =>{
   const showTag = () =>{
@@ -63,7 +64,7 @@ const Portfolio = props =>{
                url = "https://siesta-farms-booking.herokuapp.com/"
               />
           </div>
-
+    <Spacer num="8"/>
     </section>
   )
 }
