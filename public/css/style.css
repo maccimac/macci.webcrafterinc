@@ -9,6 +9,10 @@
   font-size: 15px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* II. Typography */
 /* HEADINGS  */
 *, html, body {
@@ -290,12 +294,12 @@ a.add-peace:hover:after {
   min-height: 32rem;
 }
 
-.height-50vh {
+.minheight-50vh {
   height: 50vh;
 }
 
-.height-66vh {
-  height: 66vh;
+.minheight-66vh {
+  min-height: 66vh;
 }
 
 .height-20rem {
@@ -322,14 +326,27 @@ a.add-peace:hover:after {
 #navigation {
   padding: 2rem;
 }
-
 #navigation img#logo {
   width: 12rem;
 }
-
-#right-nav {
+#navigation #right-nav {
   padding: 0.4rem 1.2rem 0.8rem;
   border: 1px solid transparent;
+}
+@media only screen and (max-width: 992px) {
+  #navigation {
+    position: absolute;
+    padding-bottom: 4rem;
+  }
+  #navigation img#logo {
+    width: 6rem;
+  }
+  #navigation #right-nav {
+    padding: 0;
+  }
+  #navigation #right-nav a {
+    font-size: 0.6rem;
+  }
 }
 
 #portfolio {
@@ -347,12 +364,16 @@ a.add-peace:hover:after {
   box-shadow: 6, 12, 24, rgba(0, 0, 0, 0.12);
 }
 
+#portfolio-container {
+  display: flex;
+  align-items: stretch;
+}
+
 .portfolio-item {
+  box-sizing: border-box;
   padding: 0;
-  flex-direction: column;
 }
 .portfolio-item .item-show {
-  order: 2;
   display: flex;
 }
 .portfolio-item .item-show .item-show-title {
@@ -372,8 +393,8 @@ a.add-peace:hover:after {
   object-fit: cover;
 }
 .portfolio-item .item-hover {
-  order: 1;
   display: flex;
+  align-content: center;
 }
 .portfolio-item .item-hover .item-meta {
   align-self: center;
@@ -385,7 +406,12 @@ a.add-peace:hover:after {
   margin-right: 0.6rem;
 }
 
-/* SKILLSET */
+/* TECHNOLOGIES */
+#skillset svg {
+  max-width: 5rem;
+  margin: 1.2rem;
+}
+
 #skillset {
   background-color: #ededed;
 }

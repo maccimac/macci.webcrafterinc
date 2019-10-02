@@ -8,11 +8,31 @@
 
 #navigation{
   padding: 2rem;
-}
-#navigation img#logo{
-  width: 12rem;
-}
-#right-nav{
-  padding: .4rem 1.2rem .8rem;
-  border: 1px solid transparent;
+  img#logo{
+    width: 12rem;
+  }
+  #right-nav{
+    padding: .4rem 1.2rem .8rem;
+    border: 1px solid transparent;
+  }
+  @media (max-width: $break-md){
+    padding: .4rem;
+    position: relative;
+    padding-bottom: 3rem;
+    div{
+      padding: 0;
+    }
+
+    img#logo{
+      width: 8rem;
+    }
+    #right-nav{
+      padding: 0;
+      a {
+       font-size: 1rem;
+       }
+    }
+
+
+  }
 }

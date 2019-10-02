@@ -11,7 +11,7 @@ const Home = () =>(
     {/* <MainNav/> */}
     <section id="above-the-fold">
       <div className="container-fluid p-5">
-        <div className="row align-items-center height-66vh p-5">
+        <div className="row align-items-center minheight-66vh p-5">
           <div className="col-md-7 py-3">
               <p className="clearfix h1 mb-2">Hello :)</p>
 
@@ -40,14 +40,14 @@ const Home = () =>(
             <p>I’ve worked as a <strong>developer, designer, project manager, and marketing strategist</strong> for teams, companies, and clients.</p>
 <p className="mb-4">I enjoy learning new technologies.</p>
 
-            <div className="d-inline-flex align-items-center">
+            <div className="d-inline align-items-center">
 
-                <a className="btn btn-secondary align-middle mr-3" href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf">
+                <a className="btn btn-secondary align-middle mr-3 my-3" href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf">
                   Download Resume &nbsp;
                   <i class="btn-arrow fas fa-arrow-right text-white" ></i>
                 </a>
-                <strong className="text-sans">
-                  <a className="text-red animated-underline" href="#skillset">
+                <strong id="meet-the-dev m-3" className="text-sans">
+                  <a  className="text-red animated-underline" href="#skillset">
                     About the Developer
                   </a>
                 </strong>

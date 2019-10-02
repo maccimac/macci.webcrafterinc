@@ -1,5 +1,6 @@
 {
   "name": "macci-webcrafterinc",
+  "homepage": "http://macci.webcrafterinc.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
