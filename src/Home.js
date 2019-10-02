@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import MainNav from './layout/MainNav'
 import Portfolio from './modules/Portfolio';
 
@@ -22,11 +22,21 @@ const Home = () =>(
             <p className="mb-4">
               I’ve been handling websites for 10 years. I’ve worked as a designer, developer, project manager, marketing strategist, and occasional makeshift psychologist for teams, companies, and clients.
             </p>
-            <h4 className="">
-              <a className="text-red animated-underline" href="">
-                Download Resume »
-              </a>
-            </h4>
+            <div className="d-inline-flex align-items-center">
+
+                <Link className="btn btn-primary align-middle mr-3" to="">
+                  Download Resume »
+                </Link>
+                <strong className="text-sans">
+                  <Link className="text-blue animated-underline-blue" top="">
+                    About the Developer
+                  </Link>
+                </strong>
+
+            </div>
+
+
+
             <div className="minheight-2rem"> </div>
           </div>
 

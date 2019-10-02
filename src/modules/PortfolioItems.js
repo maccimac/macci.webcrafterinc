@@ -1,8 +1,8 @@
 // One Template First
 // Two Templates Next
 
-import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import React, {addEffect} from 'react'
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 const PortfolioItems =({
   title,
@@ -13,11 +13,35 @@ const PortfolioItems =({
   secTech,
   url
 }) => {
-  return(
-    <div className="col-md-6 d-flex portfolio-item minheight-16rem shadow">
-      <div className="item-show d-flex">
-        <div className="item-show-title p-5">
 
+
+
+  const hideItem = e =>{
+    const initItem = e.currentTarget.querySelector('.item-show');
+    const hoverItem = e.currentTarget.querySelector('.item-hover');
+    hoverItem.classList.remove('d-flex')
+    hoverItem.classList.add('d-none')
+    initItem.classList.remove('d-none');
+    initItem.classList.add('d-flex');
+
+  }
+  const showHover = e =>{
+    const initItem = e.currentTarget.querySelector('.item-show');
+    const hoverItem = e.currentTarget.querySelector('.item-hover');
+    initItem.classList.remove('d-flex')
+    initItem.classList.add('d-none')
+    hoverItem.classList.remove('d-none');
+    hoverItem.classList.add('d-flex');
+  }
+
+  const sameColHeight = () =>{
+
+  }
+  return(
+    <div className="col-md-6 d-flex align-items-stretch">
+      <div className="portfolio-item minheight-16rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
+      <div className="item-show">
+        <div className="item-show-title p-5">
           <div className="item-meta">
             <h3>{title}</h3>
             <strong>
@@ -38,14 +62,54 @@ const PortfolioItems =({
             </strong>
           </div>
 
+        </div>
+        <div className="item-show-img align-self-stretch height-24rem" >
+            <img src={img} alt=""/>
+        </div>
+      </div>
+      {/* item-show */}
+      <div className="item-hover p-5 d-none height-24rem">
+        <div className="item-meta">
+          <div className="contribution mb-4">
+            {contribution.map(
+              (item,index)=>(
+                <span className="h4 tag">
+                  {item}
+                </span>
+              )
 
+            )}
+          </div>
+
+          <h3>{title}</h3>
+          <p>{description}</p>
+          <p><strong>
+            {priTech.map(
+              (item,index)=>(
+                <span className="text-red pr-1">
+                  {item}  /
+                </span>
+              )
+            )}
+            {secTech.map(
+              (item,index)=>(
+                <span className="text-light pr-1">
+                  {item}  /
+                </span>
+              )
+            )}
+          </strong></p>
+
+          <Link to={url} className="btn btn-primary">
+              Visit &nbsp;
+              <i class="btn-arrow fas fa-arrow-right text-white" ></i>
+          </Link>
         </div>
-        <div className="item-show-img">
-            <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
-        </div>
+
       </div>
 
     </div>
+  </div>
   )
 }
 

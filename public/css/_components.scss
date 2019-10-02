@@ -1,14 +1,13 @@
 //     PORTFOLIO
-//     LINKS AND BUTTONS
-//     HR
-//     WIDTHS AND HEIGHTS
-//     MARGINS AND PADDINGS
-//     MAKE EQUAL HEIGHT
+
 
 // PORTFOLIO
 
 #portfolio{
   background-color: $lightest;
+  // display: flex;
+  // align-items: stretch;
+  // justify-content: space-between;
   li{
     @extend h3;
     color: $light;
@@ -19,22 +18,33 @@
     color: $darker;
   }
 }
+
 .shadow{
   box-shadow: 6,  12, 24, rgba(0,0,0,0.12);
 }
 
+#portfolio-container{
+  display: flex;
+  align-items: stretch;
+
+}
 .portfolio-item{
+  box-sizing: border-box;
   padding: 0;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: stretch;
+
   @media screen and (min-width: $break-small) {
 
   }
   .item-show{
-
+    // order: 2;
+    display: flex;
     .item-show-title{
       flex: 1;
       display: flex;
       align-content: center;
-
       .item-meta{
         align-self: center;
       }
@@ -49,72 +59,20 @@
 
       }
     }
-
+  }
+  .item-hover{
+    display: flex;
+    align-content: center;
+    .item-meta{
+      align-self: center;
+      .h4.tag{
+        color: $blue;
+        background-color: $lighter;
+        padding: .4rem 1rem;
+        margin-right: .6rem;
+      }
+    }
   }
 
 
-
-
 }
-
-
-/* WIDTHS AND HEIGHTS */
-.width-100{
-  width:100%
-}
-.width-66{
-  width: 66%;
-}
-.width-80{
-  width: 80%;
-}
-.width-50{
-  width: 50%;
-}
-.width-fitcontent{
-  width: fit-content;
-}
-.minheight-2rem{
-  min-height: 2rem;
-}
-.minheight-4rem{
-  min-height: 4rem;
-}
-.minheight-6rem{
-  min-height: 6rem;
-}
-.minheight-8rem{
-  min-height: 8rem;
-}
-.minheight-10rem{
-  min-height: 10rem;
-}
-.minheight-16rem{
-  min-height: 16rem;
-}
-.minheight-32rem{
-  min-height: 32rem;
-}
-.height-50vh{
-  height: 50vh;
-}
-
-.height-66vh{
-  height: 66vh;
-}
-
-.height-20rem{
-  height: 20rem;
-}
-.height-30rem{
-  height: 30rem;
-}
-.height-32rem{
-  height: 32rem;
-}
-.height-100{
-  height: 100%;
-}
-
-
-/* MARGINS AND PADDINGS */

@@ -22,12 +22,14 @@ const Portfolio = props =>{
 
 
       <div className="row">
+
+
         <div className="col-lg-12">
           <ul id="portfolio-nav" className="list-inline">
             <li className="list-inline-item active">
               Featured Works
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               Projects
             </li>
             <li className="list-inline-item">
@@ -35,24 +37,32 @@ const Portfolio = props =>{
             </li>
             <li className="list-inline-item">
               All
-            </li>
+            </li> */}
           </ul>
         </div>
 
       </div>
-      <div className="row">
-        <PortfolioItems
-          title = "Booking System - Siesta Farm and Resorts"
-          contribution = {["Web Development", "Design"]}
-          img = "/img/portfolio/"
-          description = ""
-          priTech = {["ReactJS","MongoDB","Javascript"]}
-          secTech={["Bootstrap","HTML-CSS"]}
-          url = "https://siesta-farms-booking.herokuapp.com/"
-         />
-      </div>
 
-
+          <div id="portfolio-container" className="row">
+            <PortfolioItems
+              title = "Booking System - Siesta Farm and Resorts"
+              contribution = {["Web Development", "Design"]}
+              img = "https://images.pexels.com/photos/190364/pexels-photo-190364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+              priTech = {["ReactJS","MongoDB","Javascript"]}
+              secTech={["Bootstrap","HTML-CSS"]}
+              url = "https://siesta-farms-booking.herokuapp.com/"
+             />
+             <PortfolioItems
+               title = "Asset Management System - Hotel Handler"
+               contribution = {["Web Development", "Design"]}
+               img = "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+               description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. C"
+               priTech = {["ReactJS","MongoDB","Javascript"]}
+               secTech={["Bootstrap","HTML-CSS"]}
+               url = "https://siesta-farms-booking.herokuapp.com/"
+              />
+          </div>
 
     </section>
   )
