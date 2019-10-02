@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400i,700,800|Source+Sans+Pro:400,400i,600,700,900|Source+Serif+Pro:400,600,700");
+* {
+  box-sizing: border-box;
+}
+
+*, html, body {
+  color: #8c847e;
+  font-size: 15px;
+}
+
+/* II. Typography */
+/* HEADINGS  */
+*, html, body {
+  color: #8c847e;
+}
+
+p {
+  font-family: "Source Sans Pro", Lucida, sans-serif;
+}
+p .small {
+  font-size: 0.8rem;
+}
+
+h1, h2, .h2, .h1 {
+  font-family: "Source Serif Pro", Georgia, sans-serif;
+  color: #bdb7b3;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+}
+h1 .headline, h2 .headline, .h2 .headline, .h1 .headline {
+  font-size: 4.4rem;
+}
+h1 .strong, h2 .strong, .h2 .strong, .h1 .strong {
+  color: #8c847e !important;
+}
+
+h2, .h2 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+h2 .strong, .h2 .strong {
+  color: #8c847e !important;
+}
+
+h3, #portfolio li, .h3 {
+  font-family: "Muli", Helvetica, Trebuchet, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4e4b48;
+}
+
+h4, .h4 {
+  font-family: "Source Sans Pro", Lucida, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.16rem;
+}
+
+h6, .h6 {
+  font-family: "Source Sans Pro", Lucida, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  /* text-transform: none;
+  letter-spacing: .12rem; */
+}
+
+/* STRONG, EM */
+strong, .strong {
+  color: #333 !important;
+}
+
+/* LINKS */
+/* LISTS */
+li {
+  font-size: 0.9rem;
+}
+
+/* FONTS */
+.text-geo {
+  font-family: "Muli", Helvetica, Trebuchet, sans-serif;
+}
+
+.text-sans {
+  font-family: "Source Sans Pro", Lucida, sans-serif;
+}
+
+.text-serif {
+  font-family: "Source Serif Pro", Georgia, sans-serif;
+}
+
+/* COLORS */
+.text-regular {
+  color: #8c847e;
+  font-family: inherit;
+}
+
+.text-dark {
+  color: #4e4b48;
+  font-family: inherit;
+}
+
+.text-blue {
+  color: #303ab2;
+  font-family: inherit;
+}
+
+.text-red {
+  color: #e4002b;
+  font-family: inherit;
+}
+
+.text-light {
+  color: #bdb7b3 !important;
+  font-family: inherit;
+}
+
+.text-lighter {
+  color: #ededed !important;
+  font-family: inherit;
+}
+
+.text-white {
+  color: #fff;
+  font-family: inherit;
+}
+
+/* ACCESSORIES */
+.underline-yellow, #portfolio .active {
+  text-decoration: none !important;
+  padding-bottom: 0;
+  box-shadow: inset 0 -6px 0 #303ab2;
+  /* transition: .3s; */
+  /* box-shadow: inset 0 -32px 0 blue, inset 0 -8px 0 rgba(244,246,138,0.6);  */
+  /* #f4f68a */
+}
+
+.fas {
+  font-family: "Font Awesome";
+}
+
+#navigation {
+  padding: 2rem;
+}
+
+#navigation img#logo {
+  width: 12rem;
+}
+
+#right-nav {
+  padding: 0.4rem 1.2rem 0.8rem;
+  border: 1px solid transparent;
+}
+
+#portfolio {
+  background-color: #f9f9f9;
+}
+#portfolio li {
+  color: #bdb7b3;
+  margin: auto 1rem;
+}
+#portfolio .active {
+  color: #333;
+}
+
+.shadow {
+  box-shadow: 6, 12, 24, rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-item {
+  padding: 0;
+}
+.portfolio-item .item-show .item-show-title {
+  flex: 1;
+  display: flex;
+  align-content: center;
+}
+.portfolio-item .item-show .item-show-title .item-meta {
+  align-self: center;
+}
+.portfolio-item .item-show .item-show-img {
+  flex: 2;
+}
+.portfolio-item .item-show .item-show-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* WIDTHS AND HEIGHTS */
+.width-100 {
+  width: 100%;
+}
+
+.width-66 {
+  width: 66%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-fitcontent {
+  width: fit-content;
+}
+
+.minheight-2rem {
+  min-height: 2rem;
+}
+
+.minheight-4rem {
+  min-height: 4rem;
+}
+
+.minheight-6rem {
+  min-height: 6rem;
+}
+
+.minheight-8rem {
+  min-height: 8rem;
+}
+
+.minheight-10rem {
+  min-height: 10rem;
+}
+
+.minheight-16rem {
+  min-height: 16rem;
+}
+
+.minheight-32rem {
+  min-height: 32rem;
+}
+
+.height-50vh {
+  height: 50vh;
+}
+
+.height-66vh {
+  height: 66vh;
+}
+
+.height-20rem {
+  height: 20rem;
+}
+
+.height-30rem {
+  height: 30rem;
+}
+
+.height-32rem {
+  height: 32rem;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+/* MARGINS AND PADDINGS */
+.underline-yellow, #portfolio .active {
+  text-decoration: none !important;
+  /* transition: .3s; */
+  /* box-shadow: inset 0 -32px 0 blue, inset 0 -8px 0 rgba(244,246,138,0.6);  */
+  padding-bottom: 0;
+  box-shadow: inset 0 -12px 0 rgba(244, 246, 138, 0.6);
+  /* #f4f68a */
+}
+
+/*# sourceMappingURL=style.css.map */

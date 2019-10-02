@@ -1,0 +1,127 @@
+/* II. Typography */
+
+/* HEADINGS  */
+*, html, body{
+  color: $mid
+
+}
+p{
+  font-family: $sans;
+  .small{
+    font-size: .8rem;
+  }
+}
+
+h1, .h1{
+  font-family: $serif;
+  color: $light;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+
+  .headline{
+    font-size: 4.4rem;
+  }
+  .strong{
+    color: $mid !important;
+  }
+}
+
+h2, .h2{
+  @extend h1;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  .strong{
+    color: $mid !important;
+  }
+}
+
+h3, .h3{
+  font-family: $geo;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4e4b48;
+}
+h4, .h4{
+  font-family: $sans;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .16rem;
+}
+h5, .h5{
+}
+h6, .h6{
+  font-family: $sans;
+  font-size: .7rem;
+  font-weight: 600;
+  /* text-transform: none;
+  letter-spacing: .12rem; */
+}
+/* STRONG, EM */
+strong, .strong{
+  color: $darker !important;
+}
+
+/* LINKS */
+
+/* LISTS */
+li {
+  font-size: 0.9rem;
+}
+/* FONTS */
+.text-geo{
+  font-family: $geo;
+}
+.text-sans{
+  font-family: $sans;
+}
+.text-serif{
+  font-family: $serif;
+}
+
+/* COLORS */
+.text-regular{
+  color: $mid;
+  font-family: inherit;
+}
+.text-dark{
+  color: $dark;
+  font-family: inherit;
+}
+.text-blue{
+  color: $blue;
+  font-family: inherit;
+}
+.text-red{
+  color: $red;
+  font-family: inherit;
+}
+.text-light{
+  color: $light !important;
+  font-family: inherit;
+}
+.text-lighter{
+  color: $lighter !important;
+  font-family: inherit;
+}
+
+.text-white{
+  color: #fff;
+  font-family: inherit;
+}
+
+/* ACCESSORIES */
+
+.underline-yellow{
+    text-decoration: none !important;
+    padding-bottom:0;
+    box-shadow: inset 0 -6px 0 $blue;
+    /* transition: .3s; */
+    /* box-shadow: inset 0 -32px 0 blue, inset 0 -8px 0 rgba(244,246,138,0.6);  */
+    /* #f4f68a */
+}
+
+.fas{
+  font-family: 'Font Awesome'
+}
