@@ -9,7 +9,7 @@
   // display: flex;
   // align-items: stretch;
   // justify-content: space-between;
-  li{
+  #portfolio-nav li{
     @extend h3;
     color: $light;
     margin: auto 1rem;
@@ -27,48 +27,51 @@
 #portfolio-container{
   display: flex;
   align-items: stretch;
+  .portfolio-item{
+    box-sizing: border-box;
+    padding: 0;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: stretch;
+    .item-show{
+      // order: 2;
+      display: flex;
 
-}
-.portfolio-item{
-  box-sizing: border-box;
-  padding: 0;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: stretch;
-  .item-show{
-    // order: 2;
-    display: flex;
-    .item-show-title{
-      flex: 1;
+      .item-show-title{
+        flex: 1;
+        display: flex;
+        align-content: center;
+        .item-meta{
+          align-self: center;
+        }
+
+      }
+      .item-show-img{
+        flex: 2;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+        }
+      }
+    }
+    .item-hover{
       display: flex;
       align-content: center;
       .item-meta{
         align-self: center;
       }
-
-    }
-    .item-show-img{
-      flex: 2;
-      img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-
-      }
     }
   }
-  .item-hover{
-    display: flex;
-    align-content: center;
-    .item-meta{
-      align-self: center;
-      .h4.tag{
-        color: $blue;
-        background-color: $lighter;
-        padding: .4rem 1rem;
-        margin-right: .6rem;
-      }
-    }
+  li.tag{
+    @extend h4;
+    color: $blue;
+    background-color: $lighter;
+    padding: .4rem 1rem;
+    margin:0;
+    margin-right: .6rem;
+    margin-bottom: .6rem;
   }
 
 
@@ -76,6 +79,7 @@
 
 /* TECHNOLOGIES */
 #skillset svg{
-  max-width: 5rem;
-  margin: 1.2rem;
+  max-width: 4rem;
+  margin-bottom: 1.2rem ;
+  margin-right: 1.2rem;
 }

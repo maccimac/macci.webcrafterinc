@@ -22,10 +22,10 @@ const Home = () =>(
               <a href="https://twitter.com/maccidothello" target="_blank" className="m-2">
                 <i class="fab fa-twitter text-blue" ></i>
               </a>
-              <a href="https://twitter.com/maccidothello" target="_blank" className="m-2">
+              <a href="https://www.linkedin.com/in/maccimacaranas/" target="_blank" className="m-2">
                 <i class="fab fa-linkedin text-blue" ></i>
               </a>
-              <a href="https://twitter.com/maccidothello" target="_blank" className="m-2">
+              <a href="https://github.com/maccimac" target="_blank" className="m-2">
                 <i class="fab fa-github text-blue" ></i>
               </a>
 
@@ -96,12 +96,31 @@ const Home = () =>(
           <p>I love a lot of <strong>white space</strong> and I love <strong>Javascript</strong>.</p>
           <p><strong>Good content</strong>, clear and useful, is the starting point of every effective idea launched in the web.</p>
           <p>People tend to use what is pleasing see. <strong>Mindful interface design</strong> is important getting your audience do what you hope they’ll do.</p>
+
+          <Spacer num="2"/>
+
+          <h3>Other Skills</h3>
+          <p>
+          UX / UI, Project Management, Branding, SEO, Campaign Management (Google Adwords, FB & IG Ads, Twitter Ads), General Digital Marketing Management
+          </p>
+
+
         </div>
         <div className="col-lg-6 my-3 px-5">
           <h3>Technologies I've Touched</h3>
           <Technologies/>
           <p>This website is made using <strong>React, Javascript, SASS, and Bootstrap</strong>.</p>
+          <Spacer num="2"/>
+
+
         </div>
+        {/* <div className="col-lg-12">
+          <h3>Other Skills</h3>
+          <p>
+          UX / UI, Project Management, Branding, SEO, Campaign Management (Google Adwords, FB & IG Ads, Twitter Ads), General Digital Marketing Management
+          </p>
+
+        </div> */}
       </div>
 
     </div>

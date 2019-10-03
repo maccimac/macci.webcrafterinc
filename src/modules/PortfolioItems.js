@@ -8,7 +8,7 @@ const PortfolioItems =({
   title,
   contribution = [],
   img,
-  description,
+  children,
   priTech,
   secTech,
   url
@@ -36,18 +36,23 @@ const PortfolioItems =({
   const itemMeta  = () => (
     <div className="item-meta">
       <div className="contribution mb-4">
+        <ul className="list-inline">
+
+        </ul>
         {contribution.map(
           (item,index)=>(
-            <span className="h4 tag">
+            <li className="list-inline-item tag">
               {item}
-            </span>
+            </li>
           )
 
         )}
       </div>
 
       <h3>{title}</h3>
-      <p>{description}</p>
+      <div className="item-description">
+        {children}
+      </div>
       <p><strong>
         {priTech.map(
           (item,index)=>(
@@ -80,7 +85,7 @@ const PortfolioItems =({
       <div className="col-12 d-flex col-sm-6 p-3 align-items-stretch">
           <div className="shadow">
             <div className="" >
-                <img src={img} alt="" className="w-100"/>
+                <img src={"/img/portfolio/" + img} alt="" className="w-100"/>
             </div>
             <div className="p-5">
               {itemMeta()}
@@ -95,7 +100,7 @@ const PortfolioItems =({
 
   return(
     <div className="col-md-6 d-flex align-items-stretch">
-      <div className="portfolio-item minheight-16rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
+      <div className="portfolio-item w-100 minheight-30rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
       <div className="item-show">
         <div className="item-show-title p-5">
           <div className="item-meta">
@@ -119,8 +124,8 @@ const PortfolioItems =({
           </div>
 
         </div>
-        <div className="item-show-img align-self-stretch height-24rem" >
-            <img src={img} alt=""/>
+        <div className="item-show-img align-self-stretch height-30rem" >
+            <img src={"/img/portfolio/" + img} alt=""/>
         </div>
       </div>
 

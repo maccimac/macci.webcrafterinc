@@ -46,23 +46,37 @@ const Portfolio = props =>{
 
           <div id="portfolio-container" className="row">
             <PortfolioItems
-              title = "Booking System - Siesta Farm and Resorts"
+              title = "Booking System - Siesta Farm [Case Study]"
               contribution = {["Web Development", "Design"]}
-              img = "https://images.pexels.com/photos/190364/pexels-photo-190364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+              img = "siesta-farm-home-screen.png"
               priTech = {["ReactJS","MongoDB","Javascript"]}
               secTech={["Bootstrap","HTML-CSS"]}
               url = "https://siesta-farms-booking.herokuapp.com/"
-             />
+             >
+               <p>Case study developing a booking system for a business providing events venue (per day) and accommodations (per night).</p>
+               <ul>
+                <li> Booking functionality (previously booked dates are disabled)
+               </li>
+                <li> Registration, Log in /out. User dashboard to check edit user detail.
+               </li>
+                <li> Admin dashboard for delete or update booking status (confirmed, completed, cancelled).
+               </li>
+                <li> Admin dashboard for editing booking details (change user, change venue, change date)</li>
+               </ul>
+               <p><em>Admin Access upon request.</em></p>
+
+             </PortfolioItems>
              <PortfolioItems
-               title = "Asset Management System - Hotel Handler"
-               contribution = {["Web Development", "Design"]}
-               img = "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-               description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. C"
-               priTech = {["ReactJS","MongoDB","Javascript"]}
-               secTech={["Bootstrap","HTML-CSS"]}
-               url = "https://siesta-farms-booking.herokuapp.com/"
-              />
+               title = "THINC (The In-House Company)"
+               contribution = {["Web Development", "Project Management", "Digital Marketing","Design", "Branding"]}
+               img = "thinc-square.png"
+               priTech = {["WordPress"]}
+               secTech={["SEO","Slider Revolution","Bootstrap","HTML-CSS"]}
+               url = "https://theinhouseco.com"
+              >
+              <p>I developed and designed the website to playfully combine elegance and hipness. The website showcases the range of sectors our best lawyers specialise in, as well as illustrate the benefit of choosing us.</p>
+              <p>The website is heavily SEO-optimized</p>
+            </PortfolioItems>
           </div>
     <Spacer num="8"/>
     </section>

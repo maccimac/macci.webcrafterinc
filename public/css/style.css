@@ -48,14 +48,14 @@ h2 .strong, .h2 .strong {
   color: #8c847e !important;
 }
 
-h3, #portfolio li, .h3 {
+h3, #portfolio #portfolio-nav li, .h3 {
   font-family: "Muli", Helvetica, Trebuchet, sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   color: #4e4b48;
 }
 
-h4, .h4 {
+h4, #portfolio-container li.tag, .h4 {
   font-family: "Source Sans Pro", Lucida, sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -290,6 +290,14 @@ a.add-peace:hover:after {
   min-height: 16rem;
 }
 
+.minheight-20rem {
+  min-height: 20rem;
+}
+
+.minheight-30rem {
+  min-height: 30rem;
+}
+
 .minheight-32rem {
   min-height: 32rem;
 }
@@ -352,7 +360,7 @@ a.add-peace:hover:after {
 #portfolio {
   background-color: #f9f9f9;
 }
-#portfolio li {
+#portfolio #portfolio-nav li {
   color: #bdb7b3;
   margin: auto 1rem;
 }
@@ -368,48 +376,50 @@ a.add-peace:hover:after {
   display: flex;
   align-items: stretch;
 }
-
-.portfolio-item {
+#portfolio-container .portfolio-item {
   box-sizing: border-box;
   padding: 0;
 }
-.portfolio-item .item-show {
+#portfolio-container .portfolio-item .item-show {
   display: flex;
 }
-.portfolio-item .item-show .item-show-title {
+#portfolio-container .portfolio-item .item-show .item-show-title {
   flex: 1;
   display: flex;
   align-content: center;
 }
-.portfolio-item .item-show .item-show-title .item-meta {
+#portfolio-container .portfolio-item .item-show .item-show-title .item-meta {
   align-self: center;
 }
-.portfolio-item .item-show .item-show-img {
+#portfolio-container .portfolio-item .item-show .item-show-img {
   flex: 2;
 }
-.portfolio-item .item-show .item-show-img img {
+#portfolio-container .portfolio-item .item-show .item-show-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.portfolio-item .item-hover {
+#portfolio-container .portfolio-item .item-hover {
   display: flex;
   align-content: center;
 }
-.portfolio-item .item-hover .item-meta {
+#portfolio-container .portfolio-item .item-hover .item-meta {
   align-self: center;
 }
-.portfolio-item .item-hover .item-meta .h4.tag {
+#portfolio-container li.tag {
   color: #303ab2;
   background-color: #ededed;
   padding: 0.4rem 1rem;
+  margin: 0;
   margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 /* TECHNOLOGIES */
 #skillset svg {
-  max-width: 5rem;
-  margin: 1.2rem;
+  max-width: 4rem;
+  margin-bottom: 1.2rem;
+  margin-right: 1.2rem;
 }
 
 #skillset {
