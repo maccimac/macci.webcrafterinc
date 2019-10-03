@@ -12,7 +12,7 @@ const Home = () =>(
     <section id="above-the-fold">
       <div className="container-fluid p-5">
         <div className="row align-items-center minheight-66vh p-5">
-          <div className="col-md-7 py-3">
+          <div className="col-md-7 col-sm-5 py-3">
               <p className="clearfix h1 mb-2">Hello :)</p>
 
             <h1>
@@ -32,7 +32,7 @@ const Home = () =>(
 
             </div>
           </div>
-          <div className="col-md-5 py-3">
+          <div className="col-md-5 col-sm-7 py-3">
             <h3 className="mb-3">I’ve been crafting beautiful websites for 9 years. </h3>
             <p className="">
               I’m a <strong>freelance web developer</strong> based in the Philippines.</p>
@@ -42,11 +42,11 @@ const Home = () =>(
 
             <div className="d-inline align-items-center">
 
-                <a className="btn btn-secondary align-middle mr-3 my-3" href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf">
+                <a className="btn btn-secondary align-middle mr-3 my-3 d-block" href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf">
                   Download Resume &nbsp;
                   <i class="btn-arrow fas fa-arrow-right text-white" ></i>
                 </a>
-                <strong id="meet-the-dev m-3" className="text-sans">
+                <strong id="meet-the-dev m-3" className="text-sans d-block">
                   <a  className="text-red animated-underline" href="#skillset">
                     About the Developer
                   </a>

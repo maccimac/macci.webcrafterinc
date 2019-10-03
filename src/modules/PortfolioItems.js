@@ -9,8 +9,8 @@ const PortfolioItems =({
   contribution = [],
   img,
   children,
-  priTech,
-  secTech,
+  priTech = [],
+  secTech = [],
   url
 }) => {
 
@@ -80,7 +80,7 @@ const PortfolioItems =({
 
   // const [screenWidth, setScreenWidth] = useEffect(window.innerWidth);
 
-  if(window.innerWidth < 768){
+  if(window.innerWidth < 1025){
     return(
       <div className="col-12 d-flex col-sm-6 p-3 align-items-stretch">
           <div className="shadow">
@@ -100,7 +100,7 @@ const PortfolioItems =({
 
   return(
     <div className="col-md-6 d-flex align-items-stretch">
-      <div className="portfolio-item w-100 minheight-30rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
+      <div className="portfolio-item w-100 minheight-32rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
       <div className="item-show">
         <div className="item-show-title p-5">
           <div className="item-meta">
@@ -124,12 +124,12 @@ const PortfolioItems =({
           </div>
 
         </div>
-        <div className="item-show-img align-self-stretch height-30rem" >
+        <div className="item-show-img align-self-stretch minheight-32rem" >
             <img src={"/img/portfolio/" + img} alt=""/>
         </div>
       </div>
 
-      <div className="item-hover p-5 d-none height-24rem">
+      <div className="item-hover p-5 d-none minheight-32rem">
         {itemMeta()}
       </div>
 

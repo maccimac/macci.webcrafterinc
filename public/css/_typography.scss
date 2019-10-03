@@ -7,9 +7,6 @@
 }
 p{
   font-family: $sans;
-  .small{
-    font-size: .8rem;
-  }
 }
 
 h1, .h1{
@@ -58,9 +55,13 @@ h6, .h6{
   /* text-transform: none;
   letter-spacing: .12rem; */
 }
-/* STRONG, EM */
+/* STRONG, EM, SMALL */
 strong, .strong{
   color: $darker !important;
+}
+small, .small, .small em{
+  color: $light;
+  font-size: .8rem;
 }
 
 /* LINKS */

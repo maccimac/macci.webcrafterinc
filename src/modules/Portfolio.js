@@ -4,9 +4,7 @@ import PortfolioItems from './PortfolioItems'
 import { Spacer } from '../layout/MainTemplate';
 
 const Portfolio = props =>{
-  const showTag = () =>{
 
-  }
   return(
     <section id="portfolio" className="container-fluid p-4">
       <div className="row">
@@ -45,6 +43,53 @@ const Portfolio = props =>{
       </div>
 
           <div id="portfolio-container" className="row">
+             <PortfolioItems
+               title = "THINC (The In-House Company)"
+               contribution = {["Web Development", "Project Management", "Digital Marketing","Design", "Branding"]}
+               img = "thinc-square.png"
+               priTech = {["WordPress"]}
+               secTech={["SEO","Slider Revolution","Bootstrap","HTML-CSS"]}
+               url = "https://theinhouseco.com"
+              >
+              <p>I developed and designed the website to playfully combine elegance and hipness. The website showcases the range of sectors our best lawyers specialise in, as well as illustrate the benefit of choosing us.</p>
+              <p>The website is heavily SEO-optimized</p>
+            </PortfolioItems>
+            <PortfolioItems
+              title="Phoenix Publishing House"
+              img="phoenix-square.png"
+              contribution={["Project Management","Web Development", "Web Design"]}
+              priTech={["WordpPress"]}
+              url="https://phoenix.com.ph"
+              >
+                <p>
+                  Designed with strong emphasis on the company’s values: Alagang Mahalaga. Developed with a team. The website acts as a directory of hundreds of books by the publication.
+                </p>
+                <p>Website also features a members-only section for teachers to access their resources.</p>
+                <p>
+                  <small>
+                    <em>Credits to Andi Ong as part of the Development Team.</em>
+                  </small>
+                </p>
+            </PortfolioItems>
+            <PortfolioItems
+              title="Neo-Arch Design Build"
+              url="https://neoarchdesignbuild.com"
+              img="nadb-square.png"
+              priTech={["WordPress"]}
+              contribution={["Project Management", "Web Design"]}
+              >
+
+              <p className="
+                ">
+                  Portfolio that displays the achitectural details of the studio’s favourite works.
+                </p>
+                <p>
+                  <small>
+                    <em>Credits to Andi Ong as part of the Development Team.</em>
+                  </small>
+                </p>
+
+            </PortfolioItems>
             <PortfolioItems
               title = "Booking System - Siesta Farm [Case Study]"
               contribution = {["Web Development", "Design"]}
@@ -66,17 +111,6 @@ const Portfolio = props =>{
                <p><em>Admin Access upon request.</em></p>
 
              </PortfolioItems>
-             <PortfolioItems
-               title = "THINC (The In-House Company)"
-               contribution = {["Web Development", "Project Management", "Digital Marketing","Design", "Branding"]}
-               img = "thinc-square.png"
-               priTech = {["WordPress"]}
-               secTech={["SEO","Slider Revolution","Bootstrap","HTML-CSS"]}
-               url = "https://theinhouseco.com"
-              >
-              <p>I developed and designed the website to playfully combine elegance and hipness. The website showcases the range of sectors our best lawyers specialise in, as well as illustrate the benefit of choosing us.</p>
-              <p>The website is heavily SEO-optimized</p>
-            </PortfolioItems>
           </div>
     <Spacer num="8"/>
     </section>
