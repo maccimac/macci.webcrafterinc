@@ -73,7 +73,7 @@ const Portfolio = props =>{
             </PortfolioItems>
             <PortfolioItems
               title="Neo-Arch Design Build"
-              url="https://neoarchdesignbuild.com"
+              url="http://www.neoarchdesignbuild.com"
               img="nadb-square.png"
               priTech={["WordPress"]}
               contribution={["Project Management", "Web Design"]}
@@ -108,7 +108,9 @@ const Portfolio = props =>{
                </li>
                 <li> Admin dashboard for editing booking details (change user, change venue, change date)</li>
                </ul>
-               <p><em>Admin Access upon request.</em></p>
+               <p><small>
+                 <em>Admin Access upon request.</em>
+               </small></p>
 
              </PortfolioItems>
           </div>

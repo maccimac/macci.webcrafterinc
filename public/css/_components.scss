@@ -20,10 +20,6 @@
   }
 }
 
-.shadow{
-  box-shadow: 6,  12, 24, rgba(0,0,0,0.12);
-}
-
 #portfolio-container{
   display: flex;
   align-items: stretch;
@@ -33,6 +29,10 @@
     // display: flex;
     // flex-direction: column;
     // align-items: stretch;
+    &:hover{
+        box-shadow: 6,  16, 16, rgba(0,0,0,0.33) !important;
+        transition: .2s;
+    }
     .item-show{
       // order: 2;
       display: flex;

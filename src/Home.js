@@ -42,11 +42,11 @@ const Home = () =>(
 
             <div className="d-inline align-items-center">
 
-                <a className="btn btn-secondary align-middle mr-3 my-3 d-block" href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf">
+                <a className="btn btn-secondary align-middle mr-3 my-3 d-inline-block" target="_blank" href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf">
                   Download Resume &nbsp;
                   <i class="btn-arrow fas fa-arrow-right text-white" ></i>
                 </a>
-                <strong id="meet-the-dev m-3" className="text-sans d-block">
+                <strong id="meet-the-dev m-3" className="text-sans d-inline-block">
                   <a  className="text-red animated-underline" href="#skillset">
                     About the Developer
                   </a>
@@ -96,14 +96,11 @@ const Home = () =>(
           <p>I love a lot of <strong>white space</strong> and I love <strong>Javascript</strong>.</p>
           <p><strong>Good content</strong>, clear and useful, is the starting point of every effective idea launched in the web.</p>
           <p>People tend to use what is pleasing see. <strong>Mindful interface design</strong> is important getting your audience do what you hope they’ll do.</p>
-
           <Spacer num="2"/>
-
           <h3>Other Skills</h3>
           <p>
           UX / UI, Project Management, Branding, SEO, Campaign Management (Google Adwords, FB & IG Ads, Twitter Ads), General Digital Marketing Management
           </p>
-
 
         </div>
         <div className="col-lg-6 my-3 px-5">
@@ -111,21 +108,11 @@ const Home = () =>(
           <Technologies/>
           <p>This website is made using <strong>React, Javascript, SASS, and Bootstrap</strong>.</p>
           <Spacer num="2"/>
-
-
         </div>
-        {/* <div className="col-lg-12">
-          <h3>Other Skills</h3>
-          <p>
-          UX / UI, Project Management, Branding, SEO, Campaign Management (Google Adwords, FB & IG Ads, Twitter Ads), General Digital Marketing Management
-          </p>
-
-        </div> */}
       </div>
-
     </div>
 
-
+  <Spacer num="4"/>
   </section>
 </MainTemplate>
 )

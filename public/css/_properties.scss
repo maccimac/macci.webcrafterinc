@@ -1,12 +1,9 @@
-//     LINKS AND BUTTONS
-//     HR
 //     WIDTHS AND HEIGHTS
 //     MARGINS AND PADDINGS
-//     MAKE EQUAL HEIGHT
+//     LINKS AND BUTTONS
+// SHADOW
 
 //     LINKS AND BUTTONS
-
-
 a:hover{
   text-decoration: none;
 }
@@ -170,4 +167,10 @@ a.add-peace:hover:after{
 }
 
 
-/* MARGINS AND PADDINGS */
+// SHADOW
+.shadow{
+  box-shadow: 6,  12, 24, rgba(0,0,0,0.12);
+  &:hover{
+    box-shadow: 6,  16, 32, rgba(0,0,0,0.33);
+  }
+}

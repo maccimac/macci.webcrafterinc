@@ -70,10 +70,10 @@ const PortfolioItems =({
         )}
       </strong></p>
 
-      <Link to={url} className="btn btn-primary">
+      <a href={url} target="_blank" className="btn btn-primary">
           Visit &nbsp;
           <i class="btn-arrow fas fa-arrow-right text-white" ></i>
-      </Link>
+      </a>
     </div>
   )
 
