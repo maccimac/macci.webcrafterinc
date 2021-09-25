@@ -1,3 +1,11 @@
+#GIT
+1. Create folder
+2. `git init`
+3. `git clone https://github.com/maccimac/macci.webcrafterinc.git`
+4. Go to folder macci.webcrafterinc
+
+
+#REACT
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
