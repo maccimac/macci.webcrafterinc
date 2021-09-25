@@ -4,6 +4,16 @@
 3. `git clone https://github.com/maccimac/macci.webcrafterinc.git`
 4. Go to folder macci.webcrafterinc
 
+#REACT
+1. To initiate: `npm i`
+2. To compile for development: `npm start`
+3. To compile for production: `npm run build`
+
+#SITEGROUND
+1. Run build
+2. Save dir build to public_html
+
+
 
 #REACT
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
