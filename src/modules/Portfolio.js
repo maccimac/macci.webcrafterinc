@@ -57,7 +57,7 @@ const Portfolio = props => {
           ]}
           img="thinc-square.png"
           priTech={["WordPress"]}
-          secTech={["SEO", "Slider Revolution", "Bootstrap", "HTML-CSS"]}
+          secTech={["SEO", "Slider Revolution", "Bootstrap",]}
           url="https://theinhouseco.com"
         >
           <p>
@@ -70,6 +70,7 @@ const Portfolio = props => {
           img="phoenix-square.png"
           contribution={["Project Management", "Web Development", "Web Design"]}
           priTech={["WordPress"]}
+          secTech={["Bootstrap",]}
           url="https://phoenix.com.ph"
         >
           <p>
@@ -106,8 +107,8 @@ const Portfolio = props => {
           title="PCIA (Philippine Concrete Industry Association)"
           contribution={["Web Development", "Web Design", "Project Management"]}
           img="pcia-square.png"
-          priTech={["ReactJS", "MongoDB", "Express", "Node", "SASS-SCSS"]}
-          secTech={["Javascript", "Bootstrap", "HTML-CSS",]}
+          priTech={["Javascript","ReactJS", "MongoDB", "Express", "Node", ]}
+          secTech={["Bootstrap", "SASS-SCSS"]}
           url="https://philconcrete.com/"
         >
           <p>
@@ -131,7 +132,7 @@ const Portfolio = props => {
           contribution={["Web Development", "Web Design", "Project Management"]}
           img="pg-2-square.png"
           priTech={["WordPress",]}
-          secTech={["Bootstrap", "HTML-CSS"]}
+          secTech={["Bootstrap",]}
           url="http://precisiongolf.com/"
         >
           <p>
@@ -146,8 +147,8 @@ const Portfolio = props => {
           title="WaveKo"
           contribution={["Web Development", "Web Design"]}
           img="waveko-square.png"
-          priTech={["Javascript", "WordPress", "SASS/SCSS"]}
-          secTech={["Bootstrap", "HTML-CSS"]}
+          priTech={["Javascript", "WordPress",]}
+          secTech={["jQuery", "Bootstrap", "SASS-SCSS"]}
           url="http://waveko.com/"
         >
           <p>
