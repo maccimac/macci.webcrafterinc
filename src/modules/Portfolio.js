@@ -61,10 +61,7 @@ const Portfolio = props => {
           url="https://theinhouseco.com"
         >
           <p>
-            I developed and designed the website to playfully combine elegance
-            and hipness. The website showcases the range of sectors our best
-            lawyers specialise in, as well as illustrate the benefit of choosing
-            us.
+            The website is developed and designed to playfully combine elegance with latest UX trends. We also showcase the sectors our lawyers specialise and the benefit of choosing this Dubai-based law firm.
           </p>
           <p>The website is heavily SEO-optimized</p>
         </PortfolioItems>
@@ -76,9 +73,7 @@ const Portfolio = props => {
           url="https://phoenix.com.ph"
         >
           <p>
-            Designed with strong emphasis on the company’s values: Alagang
-            Mahalaga. Developed with a team. The website acts as a directory of
-            hundreds of books by the publication.
+          Designed with strong emphasis on the company’s values: Alagang Mahalaga. Developed with a team. The website acts as a directory of hundreds of books by the publication. Each book's details can be customized by the team from the content management system.
           </p>
           <p>
             Website also features a members-only section for teachers to access
@@ -91,17 +86,14 @@ const Portfolio = props => {
           </p>
         </PortfolioItems>
         <PortfolioItems
-          title="Neo-Arch Design Build"
-          url="http://www.neoarchdesignbuild.com"
+          title="Neo-Arch Development Corporation"
+          url="http://www.neoarchdevtcorp.com"
           img="nadb-square.png"
           priTech={["WordPress"]}
           contribution={["Project Management", "Web Design"]}
         >
-          <p
-            className="
-                "
-          >
-            Portfolio that displays the achitectural details of the studio’s
+          <p>
+            This portfolio displays the achitectural details of the studio’s
             favourite works.
           </p>
           <p>
@@ -114,28 +106,19 @@ const Portfolio = props => {
           title="PCIA (Philippine Concrete Industry Association)"
           contribution={["Web Development", "Web Design", "Project Management"]}
           img="pcia-square.png"
-          priTech={["ReactJS", "MongoDB", "Javascript"]}
-          secTech={["Bootstrap", "HTML-CSS"]}
+          priTech={["ReactJS", "MongoDB", "Express", "Node", "SASS-SCSS"]}
+          secTech={["Javascript", "Bootstrap", "HTML-CSS",]}
           url="https://philconcrete.com/"
         >
           <p>
-            PCIA is a network of construction companies and suppliers promoting
-            the high standard of concrete products and services in the
-            Philippines.
+          PCIA is a network of construction suppliers in the Philippines.
           </p>
           <p>
-            {" "}
-            Philconcrete.com enables the team to showcase its continuous
-            activity, to make membership registration easier, and to have outlet
-            for exclusive resource materials.
+          Philconcrete.com enables potential members to register. The team admin also has their own dashboard where they can verify and edit member details. </p>
+          <p>Website also includes a members-only directory.</p>
+          <p>
+          Event registration is also synced with the organization's Facebook page.
           </p>
-          <ul>
-            <li> Event registration</li>
-            <li> Member registration</li>
-            <li> Member's only directory</li>
-            <li> Admin dashboard </li>
-            <li> Edit member details </li>
-          </ul>
           <p>
             <small>
               <em>Admin Access upon request.</em>
@@ -144,35 +127,18 @@ const Portfolio = props => {
         </PortfolioItems>
 
         <PortfolioItems
-          title="Precision Golf"
+          title="Precision Golf Middle East"
           contribution={["Web Development", "Web Design", "Project Management"]}
-          img="pg-square.png"
-          priTech={["WordPress", "Elementor"]}
+          img="pg-2-square.png"
+          priTech={["WordPress",]}
           secTech={["Bootstrap", "HTML-CSS"]}
           url="http://precisiongolf.com/"
         >
           <p>
-            PCIA is a network of construction companies and suppliers promoting
-            the high standard of concrete products and services in the
-            Philippines.
+            Precision Golf is a Dubai-based golf retail supplier, acting as an ambassador for Callaway and Mizuno.
           </p>
           <p>
-            {" "}
-            Philconcrete.com enables the team to showcase its continuous
-            activity, to make membership registration easier, and to have outlet
-            for exclusive resource materials.
-          </p>
-          <ul>
-            <li> Event registration</li>
-            <li> Member registration</li>
-            <li> Member's only directory</li>
-            <li> Admin dashboard </li>
-            <li> Edit member details </li>
-          </ul>
-          <p>
-            <small>
-              <em>Admin Access upon request.</em>
-            </small>
+          Precision Golf delivers your most enjoyable golf practice by distributing the top-quality equipment which you can customize to your measurements and your style.
           </p>
         </PortfolioItems>
 
@@ -185,28 +151,12 @@ const Portfolio = props => {
           url="http://waveko.com/"
         >
           <p>
-            PCIA is a network of construction companies and suppliers promoting
-            the high standard of concrete products and services in the
-            Philippines.
+            WaveKo is a community-minded local surf brand.
           </p>
           <p>
-            {" "}
-            Philconcrete.com enables the team to showcase its continuous
-            activity, to make membership registration easier, and to have outlet
-            for exclusive resource materials.
+            Waveko.com is a one-pager that showcases the startup's first products using product option tabs and carousel galleries.  This compact website already takes in product orders.
           </p>
-          <ul>
-            <li> Event registration</li>
-            <li> Member registration</li>
-            <li> Member's only directory</li>
-            <li> Admin dashboard </li>
-            <li> Edit member details </li>
-          </ul>
-          <p>
-            <small>
-              <em>Admin Access upon request.</em>
-            </small>
-          </p>
+
         </PortfolioItems>
       </div>
       <Spacer num="8" />

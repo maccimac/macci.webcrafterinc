@@ -99,7 +99,7 @@ const PortfolioItems =({
 
 
   return(
-    <div className="col-md-6 d-flex align-items-stretch">
+    <div className="col-md-12 col-lg-6 d-flex align-items-stretch">
       <div className="portfolio-item w-100 minheight-32rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
       <div className="item-show">
         <div className="item-show-title p-5">

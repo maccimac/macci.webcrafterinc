@@ -64,7 +64,7 @@ const Home = () => (
               <a
                 className="btn btn-secondary align-middle mr-3 my-3 d-inline-block"
                 target="_blank"
-                href="/asset/Margaret-Macaranas_Web-Developer_CV_2020.pdf"
+                href="/asset/Margaret-Macaranas-Resume-2021.pdf"
               >
                 Download Resume &nbsp;
                 <i class="btn-arrow fas fa-arrow-right text-white"></i>
@@ -135,9 +135,11 @@ const Home = () => (
             <Spacer num="2" />
             <h3>Other Skills</h3>
             <p>
+            <strong>
               UX / UI, Project Management, Branding, SEO, Campaign Management
               (Google Adwords, FB & IG Ads, Twitter Ads), General Digital
               Marketing Management
+            </strong>
             </p>
           </div>
           <div className="col-lg-6 my-3 px-5">
