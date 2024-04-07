@@ -11,7 +11,7 @@ const Home = () => (
     <section id="above-the-fold">
       <div className="container-fluid p-md-5 p-2">
         <div className="row align-items-center minheight-66vh p-5">
-          <div className="col-sm-5 p-md-5 py-3 mb-2">
+          <div className="col-sm-5 p-md-5 py-2 mb-2">
             {/* <p className="clearfix h1 mb-2">Hello :)</p> */}
 
             <h1>
@@ -21,9 +21,7 @@ const Home = () => (
               </span>
               ,<br/> Front-end Developer + <br/>UI/UX Designer
             </h1>
-            <small>
-              Vancouver, British Columbia, Canada
-            </small>
+
             <div className="d-flex">
               <a
                 href="https://twitter.com/maccidothello"
@@ -50,7 +48,7 @@ const Home = () => (
           </div>
           <div className="col-sm-7 py-3">
             <p className="">
-            Hi :) I'm a trained <strong>Full-Stack Software Engineer with 4+ years experience in web development and 5+ years in web design</strong>. 
+            Hi :) I'm a trained <strong>Full-Stack Software Engineer with 4+ years experience in web development and 5+ years in web design</strong>.
               {/* I’ve been crafting beautiful websites for 10 years.{" "} */}
             </p>
 
@@ -63,7 +61,12 @@ const Home = () => (
               for teams, companies, and clients. */}
             </p>
 
-            <p className="mb-4">I code web applications for smooth user experience. I enjoy diving into new technologies.</p>
+            <p>I code web applications for smooth user experience. I enjoy diving into new technologies.</p>
+
+            <p className="mb-4"><strong>
+              Based in British Columbia, Canada.
+            </strong>
+            </p>
 
             <div className="d-inline align-items-center">
               <a
