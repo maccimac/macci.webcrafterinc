@@ -61,7 +61,7 @@ const Portfolio = props => {
                 className=""
 
               >
-                <small className="text-blue"><i className="fab fa-github text-blue mr-1"></i>  Github Repo</small>
+                <small className="text-blue underline-yellow"><i className="fab fa-github text-blue mr-1"></i>  Github Repo</small>
               </a>
               <small className="text-mid mx-2">
                 
@@ -72,13 +72,13 @@ const Portfolio = props => {
                 target="_blank"
 
               >
-                <small className="text-blue"><i className="fas fa-book text-blue mr-1"></i>  Documentation</small>
+                <small className="text-blue underline-yellow"><i className="fas fa-book text-blue mr-1"></i>  Documentation</small>
               </a>
           </div>
 
           <p className="col-lg-8 mx-0 px-0">
             <strong>
-            ScopeCliq is a straightforward freelancing toolkit that helps you focus on your core tasks by reducing client update requests, improving client alignment, and supporting project + project management. </strong>
+            ScopeCliq is a straightforward freelancing toolkit that helps you focus on your core tasks by reducing client update requests, improving client alignment, and supporting account + project management. </strong>
             With ScopeCliq you get the following:
           </p>
           <p>
@@ -86,11 +86,11 @@ const Portfolio = props => {
           </p>
           <div className="row mb-2">
             <p className="col-lg-4">
-            <strong className="mr-2">Clear Source of Truth.</strong>
-              Client and Consultant have one clear source of truth which is the Project Blueprint holding all the Deliverables grouped by Milestones providing a central reference point
+            <strong className="mr-2">Project Blueprint.</strong>
+              Client and Consultant have <span className="underline-yellow">single source of truth</span> which is the Project Blueprint holding all the Deliverables grouped by Milestones providing a central reference point
             </p>
             <p className="col-lg-4"> 
-              <strong className="mr-2">Dedicated Client Portal.</strong>
+              <strong className="mr-2">Dedicated Client Portal Links.</strong>
               Consultant can send a professional Client Portal link where Client can actively track the project’s real-time status through the Project Blueprint.
             </p>
             <p className="col-lg-4">

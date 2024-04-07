@@ -9,9 +9,9 @@ const Home = () => (
   <MainTemplate>
     {/* <MainNav/> */}
     <section id="above-the-fold">
-      <div className="container-fluid p-5">
+      <div className="container-fluid p-md-5 p-2">
         <div className="row align-items-center minheight-66vh p-5">
-          <div className="col-md-6 col-sm-5 py-3">
+          <div className="col-sm-5 p-md-5 py-3 mb-2">
             {/* <p className="clearfix h1 mb-2">Hello :)</p> */}
 
             <h1>
@@ -19,8 +19,11 @@ const Home = () => (
               <span className="h1 underline-yellow strong">
                 Macci Macaranas
               </span>
-              , Front-end Developer + UI/ UX Designer.
+              ,<br/> Front-end Developer + <br/>UI/UX Designer
             </h1>
+            <small>
+              Vancouver, British Columbia, Canada
+            </small>
             <div className="d-flex">
               <a
                 href="https://twitter.com/maccidothello"
@@ -45,14 +48,14 @@ const Home = () => (
               </a>
             </div>
           </div>
-          <div className="col-md-6 col-sm-7 py-3">
-            <h3 className="mb-3">
-            Hi :) I'm a trained Full-Stack Software Engineer with 5+ years experience in web development and 5+ years in web design. 
+          <div className="col-sm-7 py-3">
+            <p className="">
+            Hi :) I'm a trained <strong>Full-Stack Software Engineer with 4+ years experience in web development and 5+ years in web design</strong>. 
               {/* I’ve been crafting beautiful websites for 10 years.{" "} */}
-            </h3>
+            </p>
 
             <p>
-            I have well-rounded experience of building web applications — from design & architecture, to engineering, to deployment & troubleshooting, to SEO & digital marketing.
+            I have well-rounded experience of building web applications — <strong>from design & architecture, to engineering,</strong> to deployment & troubleshooting, to SEO & digital marketing.
               {/* I’ve worked as a{" "}
               <strong>
                 developer, designer, project manager, and marketing strategist
@@ -60,7 +63,7 @@ const Home = () => (
               for teams, companies, and clients. */}
             </p>
 
-            <p className="mb-4">I enjoy learning new technologies.</p>
+            <p className="mb-4">I code web applications for smooth user experience. I enjoy diving into new technologies.</p>
 
             <div className="d-inline align-items-center">
               <a
@@ -139,10 +142,16 @@ const Home = () => (
             <h3>Other Skills</h3>
             <p>
             <strong>
-              UX / UI, Project Management, Branding, SEO, Campaign Management
+              UI / UX, Project Management, Branding, SEO, Campaign Management
               (Google Adwords, FB & IG Ads, Twitter Ads), General Digital
               Marketing Management
             </strong>
+            </p>
+
+            <Spacer num="2" />
+            <h3>Personal</h3>
+            <p>
+            I enjoy fitness and non-fiction.
             </p>
           </div>
           <div className="col-lg-6 my-3 px-5">

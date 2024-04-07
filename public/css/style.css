@@ -26,8 +26,8 @@ p {
 h1, h2, .h2, .h1 {
   font-family: "Source Serif Pro", Georgia, sans-serif;
   color: #bdb7b3;
-  font-size: 2rem;
-  line-height: 2.2rem;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
   font-weight: 600;
 }
 h1 .headline, h2 .headline, .h2 .headline, .h1 .headline {
@@ -47,7 +47,8 @@ h2 .strong, .h2 .strong {
 
 h3, #portfolio #portfolio-nav li, .h3 {
   font-family: "Muli", Helvetica, Trebuchet, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
   font-weight: 700;
   color: #4e4b48;
 }
