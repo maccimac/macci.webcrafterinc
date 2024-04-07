@@ -7,21 +7,21 @@ const Portfolio = props => {
   return (
     <section id="portfolio" className="container-fluid p-4">
       <div className="row">
-        <div className="col-lg-6 offset-lg-3 p-5 text-center">
+        <div className="col-lg-6 offset-lg-3 p-1 text-center">
           <div className="d-flex  minheight-16rem justify-content-center align-items-center">
             <h2 className="">
-              We design{" "}
+              I build websites you like{" "}
               <span className="h2 underline-yellow strong">
-                websites you like seeing and using
-              </span>{" "}
-              , coupled with{" "}
+                 seeing and using
+              </span>
+              {/* , coupled with{" "}
               <span className="h2 underline-yellow strong">
                 strong consistent branding
               </span>{" "}
               and{" "}
               <span className="h2 underline-yellow strong">
                 beautiful online presence
-              </span>
+              </span> */}
               .
             </h2>
           </div>
@@ -68,7 +68,7 @@ const Portfolio = props => {
               </small>
               
               <a
-                href="https://github.com/maccimac/scopecliq"
+                href="/asset/ScopeCliq-Project-Documentation.pdf"
                 target="_blank"
 
               >

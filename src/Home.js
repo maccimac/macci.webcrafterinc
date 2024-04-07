@@ -11,15 +11,15 @@ const Home = () => (
     <section id="above-the-fold">
       <div className="container-fluid p-5">
         <div className="row align-items-center minheight-66vh p-5">
-          <div className="col-md-7 col-sm-5 py-3">
-            <p className="clearfix h1 mb-2">Hello :)</p>
+          <div className="col-md-6 col-sm-5 py-3">
+            {/* <p className="clearfix h1 mb-2">Hello :)</p> */}
 
             <h1>
               I'm {" "}
               <span className="h1 underline-yellow strong">
                 Macci Macaranas
               </span>
-              , Front-end Software Engineer + UI/ UX Designer.
+              , Front-end Developer + UI/ UX Designer.
             </h1>
             <div className="d-flex">
               <a
@@ -45,17 +45,19 @@ const Home = () => (
               </a>
             </div>
           </div>
-          <div className="col-md-5 col-sm-7 py-3">
+          <div className="col-md-6 col-sm-7 py-3">
             <h3 className="mb-3">
-              I’ve been crafting beautiful websites for 10 years.{" "}
+            Hi :) I'm a trained Full-Stack Software Engineer with 5+ years experience in web development and 5+ years in web design. 
+              {/* I’ve been crafting beautiful websites for 10 years.{" "} */}
             </h3>
 
             <p>
-              I’ve worked as a{" "}
+            I have well-rounded experience of building web applications — from design & architecture, to engineering, to deployment & troubleshooting, to SEO & digital marketing.
+              {/* I’ve worked as a{" "}
               <strong>
                 developer, designer, project manager, and marketing strategist
               </strong>{" "}
-              for teams, companies, and clients.
+              for teams, companies, and clients. */}
             </p>
 
             <p className="mb-4">I enjoy learning new technologies.</p>
@@ -64,7 +66,7 @@ const Home = () => (
               <a
                 className="btn btn-secondary align-middle mr-3 my-3 d-inline-block"
                 target="_blank"
-                href="/asset/Margaret-Macaranas-Resume-2021.pdf"
+                href="/asset/Margaret-Macaranas-Software-Engineer-Designer-Resume.pdf"
               >
                 Download Resume &nbsp;
                 <i class="btn-arrow fas fa-arrow-right text-white"></i>
@@ -102,9 +104,10 @@ const Home = () => (
           <div className="col-lg-6 my-3 px-5">
             <h3 className="mb-3">Overview</h3>
             <p>
-              I have the well-rounded experience of building websites — from planning & design, to development, to deployment &
+              {/* I have the well-rounded experience of building websites — from planning & design, to development, to deployment &
               maintenance. I enjoy coding websites using technologies that focus
-              on seamless user experience.
+              on seamless user experience. */}
+              I enjoy coding web applications for smooth user experience. 
             </p>
             <p>
               I have a <strong>strong design background</strong> with a meaningful
