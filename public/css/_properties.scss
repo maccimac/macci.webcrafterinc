@@ -144,6 +144,10 @@ a.add-peace:hover:after{
 .minheight-32rem{
   min-height: 32rem;
 }
+
+.minheight-48rem{
+  min-height: 48rem;
+}
 .minheight-50vh{
   height: 50vh;
 }
@@ -161,6 +165,8 @@ a.add-peace:hover:after{
 }
 .height-32rem{
   height: 32rem;
+  max-height: 32rem;
+  min-height: 32rem;
 }
 .height-100{
   height: 100%;

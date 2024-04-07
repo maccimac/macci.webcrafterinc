@@ -15,11 +15,11 @@ const Home = () => (
             <p className="clearfix h1 mb-2">Hello :)</p>
 
             <h1>
-              I'm{" "}
+              I'm {" "}
               <span className="h1 underline-yellow strong">
                 Macci Macaranas
               </span>
-              , Front-end Developer & UX Designer.
+              , Front-end Software Engineer + UI/ UX Designer.
             </h1>
             <div className="d-flex">
               <a

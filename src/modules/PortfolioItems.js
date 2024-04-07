@@ -11,7 +11,8 @@ const PortfolioItems =({
   children,
   priTech = [],
   secTech = [],
-  url
+  url,
+  wide=false
 }) => {
 
 
@@ -99,8 +100,8 @@ const PortfolioItems =({
 
 
   return(
-    <div className="col-md-12 col-lg-6 d-flex align-items-stretch">
-      <div className="portfolio-item w-100 minheight-32rem shadow m-3" onMouseOver={showHover} onMouseOut={hideItem}>
+    <div className={"col-md-12 d-flex align-items-stretch " + (wide ? "col-lg-12" : "col-lg-6")} >
+      <div className={"portfolio-item w-100 shadow m-3  " + (wide ? "wide" : null )} onMouseOver={showHover} onMouseOut={hideItem}>
       <div className="item-show">
         <div className="item-show-title p-5">
           <div className="item-meta">
@@ -124,12 +125,12 @@ const PortfolioItems =({
           </div>
 
         </div>
-        <div className="item-show-img align-self-stretch minheight-32rem" >
+        <div className="item-show-img align-self-stretch" >
             <img src={"/img/portfolio/" + img} alt=""/>
         </div>
       </div>
 
-      <div className="item-hover p-5 d-none minheight-32rem">
+      <div className={"item-hover p-5 d-none"}>
         {itemMeta()}
       </div>
 

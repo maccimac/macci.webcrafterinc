@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+// import { BrowserRouter, Switch, Route } from "react-router-dom";
 import PortfolioItems from "./PortfolioItems";
 import { Spacer } from "../layout/MainTemplate";
 
@@ -27,6 +27,86 @@ const Portfolio = props => {
           </div>
         </div>
       </div>
+
+      <div className="row">
+        <div className="col-lg-12">
+          <ul id="portfolio-nav" className="list-inline">
+            <li className="list-inline-item active">Featured Project</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="project-container" className="row">
+
+      <PortfolioItems
+          key="sq"
+          wide={true}
+          title="ScopeCliq - A Freelancing Toolkit "
+          contribution={[
+            "Web Development",
+            "UI/UX Design",
+            "Database Design",
+            "Documentation",
+            "Deployment"
+          ]}
+          img="scopecliq-square-wide.png"
+          priTech={["React", "Laravel"]}
+          secTech={["SQL", "SASS", "Figma",]}
+          url="https://www.scopecliq.com"
+        >
+          <div className="mb-2">
+              <a
+                href="https://github.com/maccimac/scopecliq"
+                target="_blank"
+                className=""
+
+              >
+                <small className="text-blue"><i className="fab fa-github text-blue mr-1"></i>  Github Repo</small>
+              </a>
+              <small className="text-mid mx-2">
+                
+              </small>
+              
+              <a
+                href="https://github.com/maccimac/scopecliq"
+                target="_blank"
+
+              >
+                <small className="text-blue"><i className="fas fa-book text-blue mr-1"></i>  Documentation</small>
+              </a>
+          </div>
+
+          <p className="col-lg-8 mx-0 px-0">
+            <strong>
+            ScopeCliq is a straightforward freelancing toolkit that helps you focus on your core tasks by reducing client update requests, improving client alignment, and supporting project + project management. </strong>
+            With ScopeCliq you get the following:
+          </p>
+          <p>
+        
+          </p>
+          <div className="row mb-2">
+            <p className="col-lg-4">
+            <strong className="mr-2">Clear Source of Truth.</strong>
+              Client and Consultant have one clear source of truth which is the Project Blueprint holding all the Deliverables grouped by Milestones providing a central reference point
+            </p>
+            <p className="col-lg-4"> 
+              <strong className="mr-2">Dedicated Client Portal.</strong>
+              Consultant can send a professional Client Portal link where Client can actively track the project’s real-time status through the Project Blueprint.
+            </p>
+            <p className="col-lg-4">
+              <strong className="mr-2">Consultant Dashboard.</strong>
+              Consultant will have a Consultant Dashboard where they can track and manage clients and projects with an overview of where they are as a business.
+            </p>
+          </div>
+          
+
+        </PortfolioItems>
+
+      </div>
+      <div className="p-5">
+
+      </div>
+
 
       <div className="row">
         <div className="col-lg-12">
@@ -74,7 +154,7 @@ const Portfolio = props => {
           url="https://phoenix.com.ph"
         >
           <p>
-          Designed with strong emphasis on the company’s values: Alagang Mahalaga. Developed with a team. The website acts as a directory of hundreds of books by the publication. Each book's details can be customized by the team from the content management system.
+          Designed with strong emphasis on the company’s values: <i>Alagang Mahalaga</i>. Developed with a team. The website acts as a directory of hundreds of books by the publication. Each book's details can be customized by the team from the content management system.
           </p>
           <p>
             Website also features a members-only section for teachers to access
@@ -88,7 +168,7 @@ const Portfolio = props => {
         </PortfolioItems>
         <PortfolioItems
           title="Neo-Arch Development Corporation"
-          url="http://www.neoarchdevtcorp.com"
+          url="https://neoarchdevtcorp.com/"
           img="nadb-square.png"
           priTech={["WordPress"]}
           contribution={["Project Management", "Web Design"]}
@@ -103,7 +183,7 @@ const Portfolio = props => {
             </small>
           </p>
         </PortfolioItems>
-        <PortfolioItems
+        {/* <PortfolioItems
           title="PCIA (Philippine Concrete Industry Association)"
           contribution={["Web Development", "Web Design", "Project Management"]}
           img="pcia-square.png"
@@ -125,7 +205,7 @@ const Portfolio = props => {
               <em>Admin Access upon request.</em>
             </small>
           </p>
-        </PortfolioItems>
+        </PortfolioItems> */}
 
         <PortfolioItems
           title="Precision Golf Middle East"
