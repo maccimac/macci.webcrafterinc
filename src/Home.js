@@ -15,11 +15,12 @@ const Home = () => (
             {/* <p className="clearfix h1 mb-2">Hello :)</p> */}
 
             <h1>
-              I'm {" "}
+              I'm{" "}
               <span className="h1 underline-yellow strong">
                 Macci Macaranas
               </span>
-              ,<br/> Front-end Developer + <br/>UI/UX Designer
+              ,<br /> Front-end Developer + <br />
+              UI/UX Designer
             </h1>
 
             <div className="d-flex">
@@ -47,25 +48,30 @@ const Home = () => (
             </div>
           </div>
           <div className="col-sm-7 py-3">
-            <p className="">
-            Hi :) I'm a trained <strong>Full-Stack Software Engineer with 4+ years experience in web development and 5+ years in web design</strong>.
-              {/* I’ve been crafting beautiful websites for 10 years.{" "} */}
+            <h3 className="mb-3">
+              <strong>
+                I'm a Software Front-end Engineer and User Experience / User
+                Interface Designer,
+                <br />
+                with over a decade of expertise in building web applications.
+              </strong>
+            </h3>
+
+            <p>
+              My versatile background includes strong experience as an engineer
+              and as a designer. I enjoy learning new technologies, conducting
+              UI/UX testing, and managing end-to-end website development — from
+              system planning, design, and architecture to development,
+              deployment, and troubleshooting.
             </p>
 
             <p>
-            I have well-rounded experience of building web applications — <strong>from design & architecture, to engineering,</strong> to deployment & troubleshooting, to SEO & digital marketing.
-              {/* I’ve worked as a{" "}
-              <strong>
-                developer, designer, project manager, and marketing strategist
-              </strong>{" "}
-              for teams, companies, and clients. */}
+              My speciality is building user interfaces focusing on smooth user
+              experience.
             </p>
 
-            <p>I code web applications for smooth user experience. I enjoy diving into new technologies.</p>
-
-            <p className="mb-4"><strong>
-              Based in British Columbia, Canada.
-            </strong>
+            <p className="mb-4">
+              <strong>Based in British Columbia, Canada.</strong>
             </p>
 
             <div className="d-inline align-items-center">
@@ -113,11 +119,12 @@ const Home = () => (
               {/* I have the well-rounded experience of building websites — from planning & design, to development, to deployment &
               maintenance. I enjoy coding websites using technologies that focus
               on seamless user experience. */}
-              I enjoy coding web applications for smooth user experience. 
+              I enjoy coding web applications for smooth user experience.
             </p>
             <p>
-              I have a <strong>strong design background</strong> with a meaningful
-              digital marketing experience (<strong>I grow brands</strong>).
+              I have a <strong>strong design background</strong> with a
+              meaningful digital marketing experience (
+              <strong>I grow brands</strong>).
             </p>
             <p>
               I craft websites to build businesses or bring ideas to life. I’ve
@@ -144,18 +151,16 @@ const Home = () => (
             <Spacer num="2" />
             <h3>Other Skills</h3>
             <p>
-            <strong>
-              UI / UX, Project Management, Branding, SEO, Campaign Management
-              (Google Adwords, FB & IG Ads, Twitter Ads), General Digital
-              Marketing Management
-            </strong>
+              <strong>
+                UI / UX, Project Management, Branding, SEO, Campaign Management
+                (Google Adwords, FB & IG Ads, Twitter Ads), General Digital
+                Marketing Management
+              </strong>
             </p>
 
             <Spacer num="2" />
             <h3>Personal</h3>
-            <p>
-            I enjoy fitness and non-fiction.
-            </p>
+            <p>I enjoy fitness and non-fiction.</p>
           </div>
           <div className="col-lg-6 my-3 px-5">
             <h3>Technologies</h3>
