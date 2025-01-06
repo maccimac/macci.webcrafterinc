@@ -59,20 +59,25 @@ const Home = () => (
 
             <p>
               My versatile background includes strong experience as an engineer
-              and as a designer. I enjoy learning new technologies, conducting
-              UI/UX testing, and managing end-to-end website development — from
-              system planning, design, and architecture to development,
+              and as a designer. I enjoy learning new technologies, supporting
+              <strong> end-to-end website development </strong> — from system
+              planning, interface design + architecture, to development,
               deployment, and troubleshooting.
             </p>
 
-            <p>
+            {/* <p>
               My speciality is building user interfaces focusing on smooth user
               experience.
-            </p>
+            </p> */}
 
             <p className="mb-4">
-              <strong>Based in British Columbia, Canada.</strong>
+              <strong>I build websites you like seeing and using.</strong> Based
+              in British Columbia, Canada.
             </p>
+
+            <div>
+              <Technologies />
+            </div>
 
             <div className="d-inline align-items-center">
               <a
@@ -107,48 +112,87 @@ const Home = () => (
     <section id="skillset">
       <Spacer num="4" />
       <div className="container p-5">
+        {/* <div className="row">
+          <div className="col-lg-6 offset-lg-3 p-1 text-center">
+            <div className="d-flex  minheight-16rem justify-content-center align-items-center">
+              <h2 className="">
+                I build websites you like{" "}
+                <span className="h2 underline-yellow strong">
+                  seeing and using
+                </span>
+                .
+              </h2>
+            </div>
+          </div>
+        </div> */}
         <div className="row mb-5">
           <div className="col-12 px-5">
-            <h2 className="d-inline underline-yellow">Skillset</h2>
+            <h2 className="d-inline underline-yellow">About</h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6 my-3 px-5">
-            <h3 className="mb-3">Overview</h3>
+          <div className="col-lg-6 col-md-12 my-3 px-5">
+            <h3 className="mb-3">Professional Overview</h3>
             <p>
-              {/* I have the well-rounded experience of building websites — from planning & design, to development, to deployment &
-              maintenance. I enjoy coding websites using technologies that focus
-              on seamless user experience. */}
-              I enjoy coding web applications for smooth user experience.
+              I am a trained Full-Stack Software Engineer with strong design
+              background with meaninful marketing experience.
             </p>
+
             <p>
-              I have a <strong>strong design background</strong> with a
-              meaningful digital marketing experience (
-              <strong>I grow brands</strong>).
+              <strong>
+                I have 10+ years experience building and innovating websites.{" "}
+              </strong>
+              I have the versatile experience of building websites from system
+              planning, design & architecture, to development, to digital
+              marketing. I have been a designer, developer, and marketing
+              strategist for clients and business teams.
             </p>
+
             <p>
-              I craft websites to build businesses or bring ideas to life. I’ve
-              repeatedly found that <strong>good design</strong> and{" "}
-              <strong>clean code</strong> adds value to clients by solving
-              problems.
+              I have used three major Javascript Framewoks in my career: Vue,
+              React, and AngularJS. My backend web frameworks are Laravel and
+              Wordpress.
+            </p>
+
+            <p>
+              For design I've used Figma ofcourse. But also the entire Adobe
+              Suite from Photoshop, Illustrator, InDesign, XD, even Lightroom.
+            </p>
+
+            <p>
+              I've also has my hand in marketing. My first major is Advertising
+              Arts, and I've designed a handful of brands and visual identities.
+              Aside from that, as with a lot of web development projects, I have
+              implemented SEO strategies to help my clients. And to further
+              support businesses, I've also had my hands on Digital Marketing
+              specifically Google Ads and Social Media ads.
+            </p>
+
+            <p>
+              My favorite thing to do for clients is to build smooth interfaces
+              that makes it easy for users to access the the key actions in a
+              product. My other favorite thing is to help grow my clients brand.
+              And my other other favorite is to explore technological frameworks
             </p>
 
             <Spacer num="2" />
-            <h3 className="mb-3">Philosophies / Schools of thought</h3>
+          </div>
+          <div className="col-lg-6 col-md-12 my-3 px-5">
+            <h3 className="mb-3">Academics</h3>
+
             <p>
-              I love a lot of <strong>white space</strong> and I love{" "}
-              <strong>Javascript</strong>.
+              I graduated under two separate programs: (1) Fine Arts major in
+              Advertising and (2) Computer Science major in Emerging Technology
+              -- both of which I completed with honors.
             </p>
+
             <p>
-              <strong>Good content</strong>, clear and useful, is the starting
-              point of every effective idea launched in the web.
+              I profoundly enjoy the merge of the two programs design and
+              techonology.
             </p>
-            <p>
-              People tend to use what is pleasing see.{" "}
-              <strong>Mindful interface design</strong> is important getting
-              your audience do what you hope they’ll do.
-            </p>
+
             <Spacer num="2" />
+
             <h3>Other Skills</h3>
             <p>
               <strong>
@@ -160,12 +204,33 @@ const Home = () => (
 
             <Spacer num="2" />
             <h3>Personal</h3>
-            <p>I enjoy fitness and non-fiction.</p>
-          </div>
-          <div className="col-lg-6 my-3 px-5">
-            <h3>Technologies</h3>
-            <Technologies />
             <p>
+              Both of my parents are architects, which I believe has
+              significantly contributed to my balanced adeptness in both
+              creativity and logic.
+            </p>
+            <p>
+              I have been practicing yoga for 15 years, which I supplement with
+              running, strength-training, and surfing. I'm great fan of
+              non-fiction. The act of writing is also something I profoundly
+              enjoy. My other interests include meditation, fashion, and
+              language learning.
+            </p>
+            <p>
+              And, most importantly, every day I am excited to start the day
+              because of good coffee. I live with my husband in Vancouver,
+              Canada.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-12 my-3 px-5">
+            <h3>Technologies</h3>
+
+            {/* <Spacer num="2" /> */}
+
+            <Technologies />
+            <p className="">
               This website is made using{" "}
               <strong>React, Javascript, SASS, and Bootstrap</strong>.
             </p>

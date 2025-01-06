@@ -468,10 +468,16 @@ a.add-peace:hover:after {
 }
 
 /* TECHNOLOGIES */
-#skillset svg {
+#skillset svg,
+#technologies svg {
   max-width: 4rem;
   margin-bottom: 1.2rem;
   margin-right: 1.2rem;
+}
+
+#above-the-fold svg {
+  max-width: 2rem;
+  margin: 0.5rem;
 }
 
 #skillset {

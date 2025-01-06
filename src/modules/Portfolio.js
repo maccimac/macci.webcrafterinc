@@ -3,31 +3,9 @@ import React from "react";
 import PortfolioItems from "./PortfolioItems";
 import { Spacer } from "../layout/MainTemplate";
 
-const Portfolio = props => {
+const Portfolio = (props) => {
   return (
     <section id="portfolio" className="container-fluid p-4">
-      <div className="row">
-        <div className="col-lg-6 offset-lg-3 p-1 text-center">
-          <div className="d-flex  minheight-16rem justify-content-center align-items-center">
-            <h2 className="">
-              I build websites you like{" "}
-              <span className="h2 underline-yellow strong">
-                 seeing and using
-              </span>
-              {/* , coupled with{" "}
-              <span className="h2 underline-yellow strong">
-                strong consistent branding
-              </span>{" "}
-              and{" "}
-              <span className="h2 underline-yellow strong">
-                beautiful online presence
-              </span> */}
-              .
-            </h2>
-          </div>
-        </div>
-      </div>
-
       <div className="row">
         <div className="col-lg-12">
           <ul id="portfolio-nav" className="list-inline">
@@ -37,8 +15,7 @@ const Portfolio = props => {
       </div>
 
       <div id="project-container" className="row">
-
-      <PortfolioItems
+        <PortfolioItems
           key="sq"
           wide={true}
           title="ScopeCliq - A Freelancing Toolkit "
@@ -47,66 +24,71 @@ const Portfolio = props => {
             "UI/UX Design",
             "Database Design",
             "Documentation",
-            "Deployment"
+            "Deployment",
           ]}
           img="scopecliq-square-wide.png"
           priTech={["React", "Laravel"]}
-          secTech={["SQL", "SASS", "Figma",]}
+          secTech={["SQL", "SASS", "Figma"]}
           url="https://www.scopecliq.com"
         >
           <div className="mb-2">
-              <a
-                href="https://github.com/maccimac/scopecliq"
-                target="_blank"
-                className=""
-
-              >
-                <small className="text-blue underline-yellow"><i className="fab fa-github text-blue mr-1"></i>  Github Repo</small>
-              </a>
-              <small className="text-mid mx-2">
-                
+            <a
+              href="https://github.com/maccimac/scopecliq"
+              target="_blank"
+              className=""
+            >
+              <small className="text-blue underline-yellow">
+                <i className="fab fa-github text-blue mr-1"></i> Github Repo
               </small>
-              
-              <a
-                href="/asset/ScopeCliq-Project-Documentation.pdf"
-                target="_blank"
+            </a>
+            <small className="text-mid mx-2"></small>
 
-              >
-                <small className="text-blue underline-yellow"><i className="fas fa-book text-blue mr-1"></i>  Documentation</small>
-              </a>
+            <a
+              href="/asset/ScopeCliq-Project-Documentation.pdf"
+              target="_blank"
+            >
+              <small className="text-blue underline-yellow">
+                <i className="fas fa-book text-blue mr-1"></i> Documentation
+              </small>
+            </a>
           </div>
 
           <p className="col-lg-8 mx-0 px-0">
             <strong>
-            ScopeCliq is a straightforward freelancing toolkit that helps you focus on your core tasks by reducing client update requests, improving client alignment, and supporting account + project management. </strong>
+              ScopeCliq is a straightforward freelancing toolkit that helps you
+              focus on your core tasks by reducing client update requests,
+              improving client alignment, and supporting account + project
+              management.{" "}
+            </strong>
             With ScopeCliq you get the following:
           </p>
-          <p>
-        
-          </p>
+          <p></p>
           <div className="row mb-2">
             <p className="col-lg-4">
-            <strong className="mr-2">Project Blueprint.</strong>
-              Client and Consultant have <span className="underline-yellow">single source of truth</span> which is the Project Blueprint holding all the Deliverables grouped by Milestones providing a central reference point
+              <strong className="mr-2">Project Blueprint.</strong>
+              Client and Consultant have{" "}
+              <span className="underline-yellow">
+                single source of truth
+              </span>{" "}
+              which is the Project Blueprint holding all the Deliverables
+              grouped by Milestones providing a central reference point
             </p>
-            <p className="col-lg-4"> 
+            <p className="col-lg-4">
               <strong className="mr-2">Dedicated Client Portal Links.</strong>
-              Consultant can send a professional Client Portal link where Client can actively track the project’s real-time status through the Project Blueprint.
+              Consultant can send a professional Client Portal link where Client
+              can actively track the project’s real-time status through the
+              Project Blueprint.
             </p>
             <p className="col-lg-4">
               <strong className="mr-2">Consultant Dashboard.</strong>
-              Consultant will have a Consultant Dashboard where they can track and manage clients and projects with an overview of where they are as a business.
+              Consultant will have a Consultant Dashboard where they can track
+              and manage clients and projects with an overview of where they are
+              as a business.
             </p>
           </div>
-          
-
         </PortfolioItems>
-
       </div>
-      <div className="p-5">
-
-      </div>
-
+      <div className="p-5"></div>
 
       <div className="row">
         <div className="col-lg-12">
@@ -133,15 +115,17 @@ const Portfolio = props => {
             "Project Management",
             "Digital Marketing",
             "Design",
-            "Branding"
+            "Branding",
           ]}
           img="thinc-square.png"
           priTech={["WordPress"]}
-          secTech={["SEO", "Slider Revolution", "Bootstrap",]}
+          secTech={["SEO", "Slider Revolution", "Bootstrap"]}
           url="https://theinhouseco.com"
         >
           <p>
-            The website is developed and designed to playfully combine elegance with latest UX trends. We also showcase the sectors our lawyers specialise and the benefit of choosing this Dubai-based law firm.
+            The website is developed and designed to playfully combine elegance
+            with latest UX trends. We also showcase the sectors our lawyers
+            specialise and the benefit of choosing this Dubai-based law firm.
           </p>
           <p>The website is heavily SEO-optimized</p>
         </PortfolioItems>
@@ -150,11 +134,15 @@ const Portfolio = props => {
           img="phoenix-square.png"
           contribution={["Project Management", "Web Development", "Web Design"]}
           priTech={["WordPress"]}
-          secTech={["Bootstrap",]}
+          secTech={["Bootstrap"]}
           url="https://phoenix.com.ph"
         >
           <p>
-          Designed with strong emphasis on the company’s values: <i>Alagang Mahalaga</i>. Developed with a team. The website acts as a directory of hundreds of books by the publication. Each book's details can be customized by the team from the content management system.
+            Designed with strong emphasis on the company’s values:{" "}
+            <i>Alagang Mahalaga</i>. Developed with a team. The website acts as
+            a directory of hundreds of books by the publication. Each book's
+            details can be customized by the team from the content management
+            system.
           </p>
           <p>
             Website also features a members-only section for teachers to access
@@ -211,15 +199,18 @@ const Portfolio = props => {
           title="Precision Golf Middle East"
           contribution={["Web Development", "Web Design", "Project Management"]}
           img="pg-2-square.png"
-          priTech={["WordPress",]}
-          secTech={["Bootstrap",]}
+          priTech={["WordPress"]}
+          secTech={["Bootstrap"]}
           url="http://precisiongolf.com/"
         >
           <p>
-            Precision Golf is a Dubai-based golf retail supplier, acting as an ambassador for Callaway and Mizuno.
+            Precision Golf is a Dubai-based golf retail supplier, acting as an
+            ambassador for Callaway and Mizuno.
           </p>
           <p>
-          Precision Golf delivers your most enjoyable golf practice by distributing the top-quality equipment which you can customize to your measurements and your style.
+            Precision Golf delivers your most enjoyable golf practice by
+            distributing the top-quality equipment which you can customize to
+            your measurements and your style.
           </p>
         </PortfolioItems>
 
@@ -227,17 +218,16 @@ const Portfolio = props => {
           title="WaveKo"
           contribution={["Web Development", "Web Design"]}
           img="waveko-square.png"
-          priTech={["Javascript", "WordPress",]}
+          priTech={["Javascript", "WordPress"]}
           secTech={["jQuery", "Bootstrap", "SASS-SCSS"]}
           url="http://waveko.com/"
         >
+          <p>WaveKo is a community-minded local surf brand.</p>
           <p>
-            WaveKo is a community-minded local surf brand.
+            Waveko.com is a one-pager that showcases the startup's first
+            products using product option tabs and carousel galleries. This
+            compact website already takes in product orders.
           </p>
-          <p>
-            Waveko.com is a one-pager that showcases the startup's first products using product option tabs and carousel galleries.  This compact website already takes in product orders.
-          </p>
-
         </PortfolioItems>
       </div>
       <Spacer num="8" />

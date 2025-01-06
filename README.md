@@ -18,7 +18,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #SASS
-1. `cd public\css`
+1. `cd public/css`
 2. `sass --watch style.scss style.css`
 
 
