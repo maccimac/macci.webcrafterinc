@@ -16,8 +16,8 @@ const Home = () => (
               <span className="h1 underline-yellow strong">
                 Macci Macaranas
               </span>
-              ,<br /> Front-end Developer<span class="h1 ml-3">+</span> UI/UX
-              Designer
+              ,<br /> Front-end Software Engineer <span class="h1 mr-3">+</span>
+              UI/UX Designer
             </h1>
 
             <div className="d-flex">
@@ -47,16 +47,15 @@ const Home = () => (
           <div className="col-sm-7 py-3 p-md-5">
             <h3 className="mb-4">
               <strong>
-                I'm a Software Front-end Engineer and User Experience / User
+                I'm a Front-end Software Developer and User Experience / User
                 Interface Designer, with over a decade of experience building
                 web applications.
               </strong>
             </h3>
 
             <p>
-              With proven hands-on expertise in
-              building websites — from design and architecture, to development,
-              to deployment.{" "}
+              With proven hands-on expertise in building websites — from design
+              and architecture, to development, to deployment.{" "}
               <strong>I build websites you like seeing and using.</strong>
             </p>
 
@@ -191,9 +190,8 @@ const Home = () => (
               meditation, style & beauty, and learning languages.
             </p>
             <p>
-              I love being under the sun. I'm excited to start
-              every day with a good cup of coffee. I live with my husband in
-              Vancouver, Canada.
+              I love being under the sun. I'm excited to start every day with a
+              good cup of coffee. I live with my husband in Vancouver, Canada.
             </p>
           </div>
         </div>
