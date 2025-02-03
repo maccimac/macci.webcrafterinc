@@ -167,7 +167,7 @@ const Home = () => (
             <h3 className="mb-3">Academics</h3>
 
             <p>
-              I graduated in (1){" "}
+              I graduated under two programs: (1){" "}
               <strong class=" text-dark">Computer Science</strong> major in
               Emerging Technology and (2){" "}
               <strong class=" text-dark">Fine Arts</strong> major in Advertising
