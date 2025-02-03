@@ -84,7 +84,7 @@ li {
 
 /* COLORS */
 .text-regular{
-  color: $mid;
+  color: $mid !important;
   font-family: inherit;
 }
 .text-dark{
@@ -119,9 +119,7 @@ li {
     text-decoration: none !important;
     padding-bottom:0;
     box-shadow: inset 0 -11px 0 $yellow-rgba;
-    /* transition: .3s; */
-    /* box-shadow: inset 0 -32px 0 blue, inset 0 -8px 0 rgba(244,246,138,0.6);  */
-    /* #f4f68a */
+
 }
 
 .fas{

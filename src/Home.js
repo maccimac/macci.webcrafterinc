@@ -19,8 +19,8 @@ const Home = () => (
               <span className="h1 underline-yellow strong">
                 Macci Macaranas
               </span>
-              ,<br /> Front-end Developer + <br />
-              UI/UX Designer
+              ,<br /> Front-end Developer<span class="h1 ml-3">+</span> UI/UX
+              Designer
             </h1>
 
             <div className="d-flex">
@@ -51,29 +51,19 @@ const Home = () => (
             <h3 className="mb-3">
               <strong>
                 I'm a Software Front-end Engineer and User Experience / User
-                Interface Designer,
-                <br />
-                with over a decade of expertise in building web applications.
+                Interface Designer, with over a decade of experience building
+                web applications.
               </strong>
             </h3>
 
             <p>
-              My versatile background includes strong experience as an engineer
-              and as a designer. I enjoy learning new technologies, supporting
-              <strong> end-to-end website development </strong> — from system
-              planning, interface design + architecture, to development,
-              deployment, and troubleshooting.
+              With practical hands-on design and development expertise in
+              building websites — from design and architecture, to development,
+              to deployment.{" "}
+              <strong>I build websites you like seeing and using.</strong>
             </p>
 
-            {/* <p>
-              My speciality is building user interfaces focusing on smooth user
-              experience.
-            </p> */}
-
-            <p className="mb-4">
-              <strong>I build websites you like seeing and using.</strong> Based
-              in British Columbia, Canada.
-            </p>
+            <p className="mb-4">Based in British Columbia, Canada.</p>
 
             <div>
               <Technologies />
@@ -112,19 +102,6 @@ const Home = () => (
     <section id="skillset">
       <Spacer num="4" />
       <div className="container p-5">
-        {/* <div className="row">
-          <div className="col-lg-6 offset-lg-3 p-1 text-center">
-            <div className="d-flex  minheight-16rem justify-content-center align-items-center">
-              <h2 className="">
-                I build websites you like{" "}
-                <span className="h2 underline-yellow strong">
-                  seeing and using
-                </span>
-                .
-              </h2>
-            </div>
-          </div>
-        </div> */}
         <div className="row mb-5">
           <div className="col-12 px-5">
             <h2 className="d-inline underline-yellow">About</h2>
@@ -134,45 +111,57 @@ const Home = () => (
           <div className="col-lg-6 col-md-12 my-3 px-5">
             <h3 className="mb-3">Professional Overview</h3>
             <p>
-              I am a trained Full-Stack Software Engineer with strong design
-              background with meaninful marketing experience.
-            </p>
-
-            <p>
-              <strong>
-                I have 10+ years experience building and innovating websites.{" "}
+              <strong class="text-regular">
+                I am a trained{" "}
+                <span class=" text-dark">Full-Stack Software Engineer</span>{" "}
+                with strong professional{" "}
+                <span class=" text-dark">UI/UX Design experience</span>. I have{" "}
+                <span class=" text-dark">
+                  <span class="underline-yellow text-dark">10+ years</span>{" "}
+                  hands-on expertise building web applications
+                </span>
+                .{" "}
               </strong>
-              I have the versatile experience of building websites from system
-              planning, design & architecture, to development, to digital
-              marketing. I have been a designer, developer, and marketing
-              strategist for clients and business teams.
             </p>
 
             <p>
-              I have used three major Javascript Framewoks in my career: Vue,
-              React, and AngularJS. My backend web frameworks are Laravel and
-              Wordpress.
+              I have worked as a designer, developer, and marketing strategist,
+              helping businesses craft high-performing digital experiences.
             </p>
 
             <p>
-              For design I've used Figma ofcourse. But also the entire Adobe
-              Suite from Photoshop, Illustrator, InDesign, XD, even Lightroom.
+              I specialize in front-end development with{" "}
+              <strong class="underline-yellow text-dark">
+                Vue, React, and AngularJS,
+              </strong>{" "}
+              and have experience in backend development using{" "}
+              <strong class="underline-yellow text-dark">
+                Laravel and WordPress
+              </strong>
+              . My design expertise includes{" "}
+              <strong class="underline-yellow text-dark">
+                Figma and Adobe Suite
+              </strong>
+              (Photoshop, Illustrator, InDesign, XD, Lightroom).
             </p>
 
             <p>
-              I've also has my hand in marketing. My first major is Advertising
-              Arts, and I've designed a handful of brands and visual identities.
-              Aside from that, as with a lot of web development projects, I have
-              implemented SEO strategies to help my clients. And to further
-              support businesses, I've also had my hands on Digital Marketing
-              specifically Google Ads and Social Media ads.
+              With a background in Advertising Arts, I’ve{" "}
+              <strong class="underline-yellow text-dark">
+                designed brands and visual identities{" "}
+              </strong>{" "}
+              while implementing successful SEO strategies and digital marketing
+              campaigns.
             </p>
 
             <p>
-              My favorite thing to do for clients is to build smooth interfaces
-              that makes it easy for users to access the the key actions in a
-              product. My other favorite thing is to help grow my clients brand.
-              And my other other favorite is to explore technological frameworks
+              <strong class="underline-yellow text-dark">
+                As a Front-End Software Engineer, my focus is on building fast,
+                seamless, and user-friendly interfaces{" "}
+              </strong>{" "}
+              that make key actions effortless. I enjoy learning new
+              technologies and frameworks to enhance optimization and user
+              experience.
             </p>
 
             <Spacer num="2" />
@@ -181,45 +170,33 @@ const Home = () => (
             <h3 className="mb-3">Academics</h3>
 
             <p>
-              I graduated under two separate programs: (1) Fine Arts major in
-              Advertising and (2) Computer Science major in Emerging Technology
-              -- both of which I completed with honors.
-            </p>
-
-            <p>
-              I profoundly enjoy the merge of the two programs design and
-              techonology.
-            </p>
-
-            <Spacer num="2" />
-
-            <h3>Other Skills</h3>
-            <p>
-              <strong>
-                UI / UX, Project Management, Branding, SEO, Campaign Management
-                (Google Adwords, FB & IG Ads, Twitter Ads), General Digital
-                Marketing Management
+              I earned degrees in (2){" "}
+              <strong class=" text-dark">Computer Science</strong> major in
+              Emerging Technology and (1){" "}
+              <strong class=" text-dark">Fine Arts</strong> major in Advertising
+              —{" "}
+              <strong class="underline-yellow text-dark">
+                both completed with honors
               </strong>
+              .
             </p>
 
             <Spacer num="2" />
             <h3>Personal</h3>
             <p>
-              Both of my parents are architects, which I believe has
-              significantly contributed to my balanced adeptness in both
-              creativity and logic.
+              I believe coming from a family of architects significantly
+              contributed to my balanced adeptness in both creativity and logic.
             </p>
             <p>
-              I have been practicing yoga for 15 years, which I supplement with
-              running, strength-training, and surfing. I'm great fan of
+              I have been practising yoga for 15 years, which I compliment with
+              running, strength-training, and surfing. I'm an avid fan of
               non-fiction. The act of writing is also something I profoundly
               enjoy. My other interests include meditation, fashion, and
               language learning.
             </p>
             <p>
-              And, most importantly, every day I am excited to start the day
-              because of good coffee. I live with my husband in Vancouver,
-              Canada.
+              And, most importantly, I am excited to start every day because of
+              good coffee. I live with my husband in Vancouver, Canada.
             </p>
           </div>
         </div>

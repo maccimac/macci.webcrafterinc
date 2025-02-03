@@ -5,7 +5,7 @@ import { Spacer } from "../layout/MainTemplate";
 
 const Portfolio = (props) => {
   return (
-    <section id="portfolio" className="container-fluid p-4">
+    <section id="portfolio" className="container-fluid">
       <div className="row">
         <div className="col-lg-12">
           <ul id="portfolio-nav" className="list-inline">
@@ -30,6 +30,10 @@ const Portfolio = (props) => {
           priTech={["React", "Laravel"]}
           secTech={["SQL", "SASS", "Figma"]}
           url="https://www.scopecliq.com"
+          urlSecondary={
+            {url: 'http://www.scopecliq.com/portal/siesta',
+            label: 'View demo'}
+          }
         >
           <div className="mb-2">
             <a
