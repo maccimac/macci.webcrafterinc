@@ -10,8 +10,8 @@
 3. To compile for production: `npm run build`
 
 #SITEGROUND
-1. Run build
-2. Save dir build to public_html
+1. Run `npm run build`
+2. Save the directory `build` to public_html
 
 
 #REACT

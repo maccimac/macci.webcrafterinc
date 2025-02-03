@@ -54,7 +54,7 @@ const Home = () => (
             </h3>
 
             <p>
-              With practical hands-on design and development expertise in
+              With proven hands-on expertise in
               building websites — from design and architecture, to development,
               to deployment.{" "}
               <strong>I build websites you like seeing and using.</strong>
@@ -109,7 +109,7 @@ const Home = () => (
             <h3 className="mb-3">Professional Overview</h3>
             <p>
               <strong class="text-regular">
-                I am a trained{" "}
+                I'm a trained{" "}
                 <span class=" text-dark">Full-Stack Software Engineer</span>{" "}
                 with strong professional{" "}
                 <span class=" text-dark">UI/UX Design experience</span>. I have{" "}
@@ -167,9 +167,9 @@ const Home = () => (
             <h3 className="mb-3">Academics</h3>
 
             <p>
-              I earned degrees in (2){" "}
+              I graduated in (1){" "}
               <strong class=" text-dark">Computer Science</strong> major in
-              Emerging Technology and (1){" "}
+              Emerging Technology and (2){" "}
               <strong class=" text-dark">Fine Arts</strong> major in Advertising
               —{" "}
               <strong class="underline-yellow text-dark">
@@ -181,19 +181,19 @@ const Home = () => (
             <Spacer num="2" />
             <h3>Personal</h3>
             <p>
-              I believe coming from a family of architects significantly
-              contributed to my balanced adeptness in both creativity and logic.
+              Coming from a family of architects significantly contributed to my
+              balanced adeptness in both creativity and logic.
             </p>
             <p>
-              I have been practising yoga for 15 years, which I compliment with
-              running, strength-training, and surfing. I'm an avid fan of
-              non-fiction. The act of writing is also something I profoundly
-              enjoy. My other interests include meditation, fashion, and
-              language learning.
+              I'm an avid fan of non-fiction. I enjoy writing. I've been
+              practising yoga for 15 years, which I compliment with running,
+              strength-training, and surfing. My other interests include
+              meditation, style & beauty, and learning languages.
             </p>
             <p>
-              And, most importantly, I am excited to start every day because of
-              good coffee. I live with my husband in Vancouver, Canada.
+              I love being under the sun. I'm excited to start
+              every day with a good cup of coffee. I live with my husband in
+              Vancouver, Canada.
             </p>
           </div>
         </div>
