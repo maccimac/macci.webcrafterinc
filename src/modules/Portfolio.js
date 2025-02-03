@@ -5,8 +5,8 @@ import { Spacer } from "../layout/MainTemplate";
 
 const Portfolio = (props) => {
   return (
-    <section id="portfolio" className="container-fluid">
-      <div className="row">
+    <section id="portfolio" className="container-fluid p-5">
+      <div className="row mt-4">
         <div className="col-lg-12">
           <ul id="portfolio-nav" className="list-inline">
             <li className="list-inline-item active">Featured Project</li>

@@ -7,13 +7,10 @@ import Technologies from "./modules/Technologies";
 
 const Home = () => (
   <MainTemplate>
-    {/* <MainNav/> */}
     <section id="above-the-fold">
       <div className="container-fluid p-md-5 p-2">
         <div className="row align-items-center minheight-66vh p-5">
-          <div className="col-sm-5 p-md-5 py-2 mb-2">
-            {/* <p className="clearfix h1 mb-2">Hello :)</p> */}
-
+          <div className="col-sm-5 p-md-5 py-1 mb-3">
             <h1>
               I'm{" "}
               <span className="h1 underline-yellow strong">
@@ -47,8 +44,8 @@ const Home = () => (
               </a>
             </div>
           </div>
-          <div className="col-sm-7 py-3">
-            <h3 className="mb-3">
+          <div className="col-sm-7 py-3 p-md-5">
+            <h3 className="mb-4">
               <strong>
                 I'm a Software Front-end Engineer and User Experience / User
                 Interface Designer, with over a decade of experience building
@@ -65,7 +62,7 @@ const Home = () => (
 
             <p className="mb-4">Based in British Columbia, Canada.</p>
 
-            <div>
+            <div class="maxwidth-8rem mb-2">
               <Technologies />
             </div>
 
@@ -202,15 +199,16 @@ const Home = () => (
         </div>
         <div className="row">
           <div className="col-lg-12 my-3 px-5">
-            <h3>Technologies</h3>
+            <div class="text-center">
+              {/* <h3>Technologies</h3> */}
+              <Technologies />
 
-            {/* <Spacer num="2" /> */}
+              <p className="mt-3">
+                This website is made using{" "}
+                <strong>React, Javascript, SASS, and Bootstrap</strong>.
+              </p>
+            </div>
 
-            <Technologies />
-            <p className="">
-              This website is made using{" "}
-              <strong>React, Javascript, SASS, and Bootstrap</strong>.
-            </p>
             <Spacer num="2" />
           </div>
         </div>
